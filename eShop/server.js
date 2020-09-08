@@ -1,5 +1,12 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+
+//connect to database
+mongoose
+  .connect("mongodb://localhost/shop")
+  .then(() => console.log("database connected successfully"))
+  .catch((err) => console.log(err));
 
 const app = express();
 
