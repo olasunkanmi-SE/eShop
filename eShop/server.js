@@ -1,3 +1,4 @@
+require("express-async-errors");
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
@@ -11,26 +12,13 @@ mongoose
 
 const app = express();
 
-asyncMiddleware = (handler) => {
-  return async (req, res, next) => {
-    try {
-      await handler(req, res);
-    } catch (ex) {
-      next(ex);
-    }
-  };
-};
-
-app.get(
-  "/",
-  asyncMiddleware(async (req, res, next) => {
-    try {
-      res.send("hello");
-    } catch (ex) {
-      next(ex);
-    }
-  })
-);
+app.get("/", async (req, res) => {
+  try {
+    res.send("hello");
+  } catch (ex) {
+    next(ex);
+  }
+});
 
 //Parse the body of a request
 app.use(bodyParser.json());
