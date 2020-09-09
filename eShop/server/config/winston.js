@@ -1,4 +1,4 @@
-const { createLogger, transports } = require("winston");
+const winston = require("winston");
 
 const errorFormat = winston.format.printf((info) => {
   return `${info.timestamp} ${info.level} ${info.message}`;
@@ -26,14 +26,19 @@ const options = {
   },
 };
 
-let logger = createLogger({
+const logger = winston.createLogger({
+  format: winston.format.combine(winston.format.timestamp(), errorFormat),
   transports: [
     new winston.transports.File(options.file),
     new winston.transports.Console(options.console),
     new winston.transports.Http(options.http),
   ],
-  exceptionHandlers: [new transports.File({ filename: "logs/exceptions.log" })],
-  rejectionHandlers: [new transports.File({ filename: "logs/rejections.log" })],
+  exceptionHandlers: [
+    new winston.transports.File({ filename: "logs/exceptions.log" }),
+  ],
+  rejectionHandlers: [
+    new winston.transports.File({ filename: "logs/rejections.log" }),
+  ],
   exitOnError: false,
 });
 
