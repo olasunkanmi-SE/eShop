@@ -1,6 +1,6 @@
 const Joi = require("joi");
 
-module.exports.validateSignIn = (user) => {
+validateSignIn = (user) => {
   const Schema = Joi.object().keys({
     email: Joi.string()
       .min(5)
@@ -12,3 +12,5 @@ module.exports.validateSignIn = (user) => {
 
   return Schema.validate(user);
 };
+
+exports.validate = validateSignIn;

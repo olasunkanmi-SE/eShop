@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const error = require("./server/middlewares/error");
 const morgan = require("morgan");
 const winston = require("./server/config/winston");
-const { throwError } = require("rxjs");
+const auth = require("./server/routes/api/auth");
 
 //connect to database
 mongoose
@@ -15,16 +15,14 @@ mongoose
 
 const app = express();
 
-throwError(new Error("something happened"));
-
-app.get("/", async (req, res) => {
-  res.status(200).send("hello");
-});
-
 //Parse the body of a request
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+//Specify API locations
+app.use("/api/auth", auth);
+
+//Routes error handling and logging
 app.use(error);
 app.use(morgan("combined", { stream: winston.stream }));
 
