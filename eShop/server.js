@@ -6,6 +6,7 @@ const error = require("./server/middlewares/error");
 const morgan = require("morgan");
 const winston = require("./server/config/winston");
 const auth = require("./server/routes/api/auth");
+const user = require("./server/routes/api/user");
 
 //connect to database
 mongoose
@@ -21,6 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 //Specify API locations
 app.use("/api/auth", auth);
+app.use("/api/users", user);
 
 //Routes error handling and logging
 app.use(error);

@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const Joi = require("joi");
 
 const { Schema } = mongoose;
 
@@ -22,12 +23,7 @@ const userSchema = new Schema({
     minlength: 5,
     maxlength: 1024,
   },
-  confirmPassword: {
-    type: String,
-    required: true,
-    minlength: 5,
-    maxlength: 1024,
-  },
+  confirmPassword: Joi.ref("password"),
   date: {
     type: Date,
     default: Date.now,
