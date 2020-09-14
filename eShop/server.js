@@ -9,6 +9,8 @@ const winston = require("./server/config/winston");
 const auth = require("./server/routes/api/auth");
 const user = require("./server/routes/api/user");
 
+const passport = require("passport");
+
 //connect to database
 mongoose
   .connect("mongodb://localhost/shop")
@@ -20,6 +22,12 @@ const app = express();
 //Parse the body of a request
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
+//Initialize passport
+app.use(passport.initialize());
+
+//protect, the protected routes with passport
+require("./server/config/passport")(passport);
 
 //Specify API locations
 app.use("/api/login", auth);
