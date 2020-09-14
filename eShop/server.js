@@ -8,6 +8,7 @@ const morgan = require("morgan");
 const winston = require("./server/config/winston");
 const auth = require("./server/routes/api/auth");
 const user = require("./server/routes/api/user");
+
 const passport = require("passport");
 
 //connect to database
