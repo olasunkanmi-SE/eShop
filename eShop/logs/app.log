@@ -1,0 +1,80 @@
+2020-09-14T03:45:11.800Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
+Error: Configuration property "jwtPrivateKey" is not defined
+    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:12)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-14T03:48:18.961Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
+Error: Configuration property "jwtPrivateKey" is not defined
+    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:12)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-14T03:59:22.295Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
+Error: Configuration property "jwtPrivateKey" is not defined
+    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-14T04:17:35.896Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
+Error: Configuration property "jwtPrivateKey" is not defined
+    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-14T04:57:58.272Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
+Error: Configuration property "jwtPrivateKey" is not defined
+    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-14T05:04:09.229Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
+Error: Configuration property "jwtPrivateKey" is not defined
+    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-14T05:05:47.708Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
+Error: Configuration property "jwtPrivateKey" is not defined
+    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-14T05:09:41.720Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
+Error: Configuration property "jwtPrivateKey" is not defined
+    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
