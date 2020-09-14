@@ -4,6 +4,8 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const keys = require("../config/default.json");
 
+//Authenticate a user
+
 module.exports.auth = async (req, res) => {
   const { error } = validate(req.body);
   if (error) {
@@ -18,9 +20,13 @@ module.exports.auth = async (req, res) => {
     return res.status(404).send("invalid Username or Password");
   }
   const payload = { _id: user._id, email: user.email };
-  const token = jwt.sign(payload, keys.jwtPrivateKey, { expiresIn: 3600 });
-  return res
-    .status(200)
-    .json({ success: true, expiresIn: 3600, token: `Bearer ${token}` });
-  // return res.status(200).send("user signed in Successfully");
+  const token = await jwt.sign(payload, keys.jwtPrivateKey, {
+    expiresIn: 3600,
+  });
+  return res.status(200).json({
+    success: true,
+    message: "user signed in Successfully",
+    expiresIn: 3600,
+    token: `Bearer ${token}`,
+  });
 };

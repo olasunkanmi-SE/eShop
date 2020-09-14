@@ -24,6 +24,7 @@
     "config": "^3.3.1",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
+    "googleapis": "^59.0.0",
     "joi": "^17.1.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.3",
