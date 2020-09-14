@@ -78,3 +78,7 @@ Error: Configuration property "jwtPrivateKey" is not defined
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
     at internal/main/run_main_module.js:17:47
+2020-09-14T07:46:07.497Z error 500 - Unknown authentication strategy "jwt" - /api/users - GET - ::1
+2020-09-14T07:51:12.046Z error 500 - Unknown authentication strategy "jwt" - /api/users - GET - ::1
+2020-09-14T07:51:29.423Z error 500 - Unknown authentication strategy "jwt" - /api/users - GET - ::1
+2020-09-14T07:55:00.695Z error 500 - Unknown authentication strategy "jwt" - /api/users - GET - ::1
