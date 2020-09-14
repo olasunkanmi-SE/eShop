@@ -1,6 +1,8 @@
 const { User } = require("./../models/User");
 const { validate } = require("./../validation/auth");
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const keys = require("../config/default.json");
 
 module.exports.auth = async (req, res) => {
   const { error } = validate(req.body);
@@ -15,5 +17,10 @@ module.exports.auth = async (req, res) => {
   if (!validPassword) {
     return res.status(404).send("invalid Username or Password");
   }
-  return res.status(200).send("user signed in Successfully");
+  const payload = { _id: user._id, email: user.email };
+  const token = jwt.sign(payload, keys.jwtPrivateKey, { expiresIn: 3600 });
+  return res
+    .status(200)
+    .json({ success: true, expiresIn: 3600, token: `Bearer ${token}` });
+  // return res.status(200).send("user signed in Successfully");
 };
