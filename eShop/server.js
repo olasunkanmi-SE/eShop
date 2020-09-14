@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 //Specify API locations
-app.use("/api/auth", auth);
+app.use("/api/login", auth);
 app.use("/api/users", user);
 
 //Routes error handling and logging

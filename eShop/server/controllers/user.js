@@ -2,6 +2,8 @@ const { validate } = require("../validation/signup");
 const { User } = require("../models/User");
 const bcrypt = require("bcrypt");
 
+//Register a new user
+
 module.exports.register = async (req, res) => {
   const { error } = validate(req.body);
   if (error) {
@@ -31,4 +33,26 @@ module.exports.register = async (req, res) => {
       url: `http:localhost:5000/api/users/${user._id}`,
     },
   });
+};
+
+//Get all users
+
+module.exports.getUsers = async (req, res) => {
+  let users = await User.find();
+  let response = {
+    count: users.length,
+    users: users.map((user) => {
+      return {
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+        request: {
+          type: "GET",
+          url: `http://localhost:5000/api/users/${user._id}`,
+        },
+        date: user.date,
+      };
+    }),
+  };
+  return res.status(200).json(response);
 };

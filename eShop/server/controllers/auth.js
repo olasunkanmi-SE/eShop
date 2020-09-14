@@ -15,4 +15,5 @@ module.exports.auth = async (req, res) => {
   if (!validPassword) {
     return res.status(404).send("invalid Username or Password");
   }
+  return res.status(200).send("user signed in Successfully");
 };

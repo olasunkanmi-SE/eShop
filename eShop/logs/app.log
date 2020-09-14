@@ -160,3 +160,9 @@ ReferenceError: string is not defined
 
 2020-09-10T03:27:38.288Z info ::1 - - [10/Sep/2020:03:27:38 +0000] "GET /api/users/signup HTTP/1.1" 404 155 "-" "PostmanRuntime/7.26.5"
 
+2020-09-11T21:52:28.488Z info ::1 - - [11/Sep/2020:21:52:28 +0000] "GET /users HTTP/1.1" 404 144 "-" "PostmanRuntime/7.26.5"
+
+2020-09-11T21:57:47.019Z error 500 - Assignment to constant variable. - /api/users - GET - ::ffff:127.0.0.1
+2020-09-11T21:58:47.322Z error 500 - Assignment to constant variable. - /api/users - GET - ::1
+2020-09-11T21:59:40.753Z error 500 - Assignment to constant variable. - /api/users - GET - ::1
+2020-09-11T21:59:56.865Z error 500 - Assignment to constant variable. - /api/users - GET - ::ffff:127.0.0.1
