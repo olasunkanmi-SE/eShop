@@ -56,3 +56,13 @@ module.exports.getUsers = async (req, res) => {
   };
   return res.status(200).json(response);
 };
+
+module.exports.getCurrentUser = async (req, res) => {
+  let user = req.user;
+  return res.status(200).json({
+    _id: user._id,
+    name: user.name,
+    email: user.email,
+    date: user.date,
+  });
+};
