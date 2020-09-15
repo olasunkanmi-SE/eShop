@@ -12,10 +12,18 @@ const user = require("./server/routes/api/user");
 const passport = require("passport");
 
 //connect to database
-mongoose
-  .connect("mongodb://localhost/shop")
-  .then(() => console.log("database connected successfully"))
-  .catch((err) => console.log(err));
+// mongoose
+//   .connect("mongodb://localhost/shop")
+//   .then(() => console.log("database connected successfully"))
+//   .catch((err) => console.log(err));
+
+//Connect to Atlas database online
+const uri = "mongodb+srv://kosemani:omowunmi@cluster0.qj8ln.mongodb.net/shop?retryWrites=true&w=majority"
+mongoose.connect(uri, {
+  useNewUrlParser:true,
+  useUnifiedTopology:true
+}).then(()=>console.log("MongoDB connected successfully")
+).catch((err)=>console.log(err))
 
 const app = express();
 
