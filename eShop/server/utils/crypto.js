@@ -1,6 +1,7 @@
 const crypto = require("crypto");
 let iv = crypto.randomBytes(16);
-let key = "gVkYp3s6v9y$B&E)H@McQeThWmZq4t7w";
+let key = crypto.randomBytes(32);
+module.exports.passwordToken = crypto.randomBytes(32);
 
 module.exports.encryptData = (data) => {
   let cipher = crypto.createCipheriv("aes-256-cbc", key, iv);

@@ -1,6 +1,8 @@
 const { validate } = require("../validation/signup");
 const { User } = require("../models/User");
 const bcrypt = require("bcrypt");
+const crypto = require("crypto");
+const winston = require("winston");
 
 //Register a new user
 
@@ -64,5 +66,21 @@ module.exports.getCurrentUser = async (req, res) => {
     name: user.name,
     email: user.email,
     date: user.date,
+  });
+};
+
+module.exports.resetPassword = async (req, res) => {
+  const user = await User.findOne({ email: req.body.email });
+  if (!user) {
+    res.status(404).send("user does not exist");
+  }
+  crypto.randomBytes(32, (err, buffer) => {
+    if (err) {
+      return winston.error(err);
+    }
+    const token = buffer.toString("hex");
+    user.resetToken = token;
+    user.resetTokenExpiration = Date.now() + 3600000;
+    user.save();
   });
 };
