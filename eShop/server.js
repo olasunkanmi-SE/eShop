@@ -11,6 +11,8 @@ const { dbUri } = require("./server/config/db");
 
 const passport = require("passport");
 
+const passport = require("passport");
+
 //connect to database
 // mongoose
 //   .connect("mongodb://localhost/shop")

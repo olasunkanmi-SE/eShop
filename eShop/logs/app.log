@@ -465,3 +465,4 @@ SyntaxError: Unexpected token ')'
     at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
 2020-09-15T14:27:08.948Z error 500 - data and salt arguments required - /api/users/resetpassword - POST - ::1
+

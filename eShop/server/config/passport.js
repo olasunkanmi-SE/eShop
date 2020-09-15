@@ -4,7 +4,6 @@ const { User } = require("../models/User");
 const keys = require("../config/default.json");
 const winston = require("winston");
 
-
 const opts = {
   jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
   secretOrKey: keys.jwtPrivateKey,
