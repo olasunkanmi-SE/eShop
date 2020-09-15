@@ -82,5 +82,25 @@ module.exports.resetPassword = async (req, res) => {
     user.resetToken = token;
     user.resetTokenExpiration = Date.now() + 3600000;
     user.save();
+    return res.status(201).json(`http://localhost:5000/api/users/reset/${token}`);
   });
 };
+
+module.exports.getUserToken = async(req,res) =>{
+  const token = req.params.token;
+  if(token){
+    const user = await User.findOne({resetToken:token});
+    if(user && user.resetTokenExpiration > Date.now()){
+      return res.status(200).json({user:{userId:user._id, resetToken:user.resetToken, tokenExpiry:user.resetTokenExpiration}});
+    }else if(user && user.resetTokenExpiration < Date.now()){
+      return res.status(400).send('password reset token expired')
+    }else{
+      return res.status(404).send('user does not exist');
+    }
+    
+  }else{
+    winston.error();
+  }
+  
+
+}

@@ -252,3 +252,87 @@ SyntaxError: Unexpected token '}'
     at require (internal/modules/cjs/helpers.js:72:18)
     at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:9:14)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T12:59:34.508Z info ::1 - - [15/Sep/2020:12:59:34 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:02:18.195Z error uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as get] (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/node_modules/express/lib/router/index.js:510:19)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-15T13:06:38.665Z info ::1 - - [15/Sep/2020:13:06:38 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:08:00.595Z info ::1 - - [15/Sep/2020:13:08:00 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:08:01.945Z info ::1 - - [15/Sep/2020:13:08:01 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:10:37.414Z info ::1 - - [15/Sep/2020:13:10:37 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:13:18.982Z error uncaughtException: I is not defined
+ReferenceError: I is not defined
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:10:59)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-15T13:13:23.276Z error uncaughtException: I is not defined
+ReferenceError: I is not defined
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:10:59)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-15T13:13:37.242Z error uncaughtException: I is not defined
+ReferenceError: I is not defined
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:10:59)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-15T13:14:01.049Z info ::1 - - [15/Sep/2020:13:14:01 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:14:49.337Z info ::1 - - [15/Sep/2020:13:14:49 +0000] "GET /api/reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 213 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:14:58.391Z info ::1 - - [15/Sep/2020:13:14:58 +0000] "GET /api/reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 213 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:17:49.666Z info ::1 - - [15/Sep/2020:13:17:49 +0000] "GET /api/users/reset/ HTTP/1.1" 404 155 "-" "PostmanRuntime/7.26.3"
+
