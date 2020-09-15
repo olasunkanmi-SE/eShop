@@ -24,6 +24,8 @@ const userSchema = new Schema({
     maxlength: 1024,
   },
   confirmPassword: Joi.ref("password"),
+  resetToken: String,
+  resetTokenExpiration: Date,
   date: {
     type: Date,
     default: Date.now,

@@ -1,84 +1,468 @@
-2020-09-14T03:45:11.800Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
-Error: Configuration property "jwtPrivateKey" is not defined
-    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
-    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:12)
+2020-09-15T02:01:29.746Z error 500 - res is not a function - /api/users/resetpassword - GET - ::1
+2020-09-15T05:02:16.414Z error uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\utils\token.js:3:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:4:15)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T05:02:24.475Z error uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\utils\token.js:3:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:4:15)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T05:02:45.674Z error uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\utils\token.js:3:18)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:4:15)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T05:20:10.457Z error uncaughtException: Cannot find module '../utils/token'
+Require stack:
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+Error: Cannot find module '../utils/token'
+Require stack:
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:4:15)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+2020-09-15T05:20:14.390Z error uncaughtException: Cannot find module '../utils/token'
+Require stack:
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+Error: Cannot find module '../utils/token'
+Require stack:
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js
+- C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:4:15)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+2020-09-15T05:35:06.540Z error 500 - randomData is not defined - /api/users/resetpassword - POST - ::1
+2020-09-15T05:37:18.552Z error 500 - data is not defined - /api/users/resetpassword - POST - ::ffff:127.0.0.1
+2020-09-15T05:42:28.282Z info ::ffff:127.0.0.1 - - [15/Sep/2020:05:42:28 +0000] "POST /api/users/resetpassword HTTP/1.1" 404 163 "-" "PostmanRuntime/7.26.5"
+
+2020-09-15T05:42:44.181Z info ::1 - - [15/Sep/2020:05:42:44 +0000] "POST /api/users/resetpassword HTTP/1.1" 404 163 "-" "PostmanRuntime/7.26.5"
+
+2020-09-15T05:42:54.135Z info ::ffff:127.0.0.1 - - [15/Sep/2020:05:42:54 +0000] "POST /api/users/resetpassword HTTP/1.1" 404 163 "-" "PostmanRuntime/7.26.5"
+
+2020-09-15T10:42:26.513Z error uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:50:5)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
     at Module.load (internal/modules/cjs/loader.js:985:32)
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
     at internal/main/run_main_module.js:17:47
-2020-09-14T03:48:18.961Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
-Error: Configuration property "jwtPrivateKey" is not defined
-    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
-    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:12)
+2020-09-15T10:46:27.109Z error uncaughtException: await is only valid in async function
+C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:78
+    const user = await User.find({email:req.body.email});
+                 ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T10:48:33.315Z error uncaughtException: await is only valid in async function
+C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:78
+    const user = await User.find({email:req.body.email});
+                 ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T10:49:59.181Z error uncaughtException: await is only valid in async function
+C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:78
+    const user = await User.find({email:req.body.email});
+                 ^^^^^
+
+SyntaxError: await is only valid in async function
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T10:57:34.503Z error uncaughtException: user.save is not a function
+TypeError: user.save is not a function
+    at AsyncWrap.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:85:17)
+    at AsyncWrap.wrap.ondone (internal/crypto/random.js:63:8)
+2020-09-15T10:58:58.259Z error uncaughtException: Cannot access 'user' before initialization
+ReferenceError: Cannot access 'user' before initialization
+    at AsyncWrap.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:79:5)
+    at AsyncWrap.wrap.ondone (internal/crypto/random.js:63:8)
+2020-09-15T10:59:41.414Z error uncaughtException: Cannot access 'user' before initialization
+ReferenceError: Cannot access 'user' before initialization
+    at AsyncWrap.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:79:5)
+    at AsyncWrap.wrap.ondone (internal/crypto/random.js:63:8)
+2020-09-15T11:00:47.527Z error uncaughtException: user.save is not a function
+TypeError: user.save is not a function
+    at AsyncWrap.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:87:17)
+    at AsyncWrap.wrap.ondone (internal/crypto/random.js:63:8)
+2020-09-15T11:10:47.495Z error uncaughtException: Unexpected token '}'
+C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:78
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T11:10:52.833Z error uncaughtException: Unexpected token '}'
+C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\user.js:78
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\routes\api\user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T12:59:34.508Z info ::1 - - [15/Sep/2020:12:59:34 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:02:18.195Z error uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as get] (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/node_modules/express/lib/router/index.js:510:19)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:10:8)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
     at Module.load (internal/modules/cjs/loader.js:985:32)
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
     at internal/main/run_main_module.js:17:47
-2020-09-14T03:59:22.295Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
-Error: Configuration property "jwtPrivateKey" is not defined
-    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
-    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+2020-09-15T13:06:38.665Z info ::1 - - [15/Sep/2020:13:06:38 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:08:00.595Z info ::1 - - [15/Sep/2020:13:08:00 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:08:01.945Z info ::1 - - [15/Sep/2020:13:08:01 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:10:37.414Z info ::1 - - [15/Sep/2020:13:10:37 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:13:18.982Z error uncaughtException: I is not defined
+ReferenceError: I is not defined
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:10:59)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
     at Module.load (internal/modules/cjs/loader.js:985:32)
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
     at internal/main/run_main_module.js:17:47
-2020-09-14T04:17:35.896Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
-Error: Configuration property "jwtPrivateKey" is not defined
-    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
-    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+2020-09-15T13:13:23.276Z error uncaughtException: I is not defined
+ReferenceError: I is not defined
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:10:59)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
     at Module.load (internal/modules/cjs/loader.js:985:32)
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
     at internal/main/run_main_module.js:17:47
-2020-09-14T04:57:58.272Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
-Error: Configuration property "jwtPrivateKey" is not defined
-    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
-    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+2020-09-15T13:13:37.242Z error uncaughtException: I is not defined
+ReferenceError: I is not defined
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:10:59)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
     at Module.load (internal/modules/cjs/loader.js:985:32)
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
     at internal/main/run_main_module.js:17:47
-2020-09-14T05:04:09.229Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
-Error: Configuration property "jwtPrivateKey" is not defined
-    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
-    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+2020-09-15T13:14:01.049Z info ::1 - - [15/Sep/2020:13:14:01 +0000] "GET /reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 209 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:14:49.337Z info ::1 - - [15/Sep/2020:13:14:49 +0000] "GET /api/reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 213 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:14:58.391Z info ::1 - - [15/Sep/2020:13:14:58 +0000] "GET /api/reset/75cd20a0d6afe413840a3a8f1fe179dfda38bc226e3af823d29b81e494896088 HTTP/1.1" 404 213 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:17:49.666Z info ::1 - - [15/Sep/2020:13:17:49 +0000] "GET /api/users/reset/ HTTP/1.1" 404 155 "-" "PostmanRuntime/7.26.3"
+
+2020-09-15T13:52:20.035Z error uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/node_modules/express/lib/router/index.js:510:19)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:9:8)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
     at Module.load (internal/modules/cjs/loader.js:985:32)
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
     at internal/main/run_main_module.js:17:47
-2020-09-14T05:05:47.708Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
-Error: Configuration property "jwtPrivateKey" is not defined
-    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
-    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+2020-09-15T13:58:38.309Z error uncaughtException: Unexpected token '}'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:124
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
     at Module.load (internal/modules/cjs/loader.js:985:32)
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
-    at internal/main/run_main_module.js:17:47
-2020-09-14T05:09:41.720Z error uncaughtException: Configuration property "jwtPrivateKey" is not defined
-Error: Configuration property "jwtPrivateKey" is not defined
-    at Config.get (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\config\lib\config.js:182:11)
-    at Object.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js:21:13)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T13:58:47.556Z error uncaughtException: Unexpected token '}'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:123
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
     at Module.load (internal/modules/cjs/loader.js:985:32)
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
-    at internal/main/run_main_module.js:17:47
-2020-09-14T07:46:07.497Z error 500 - Unknown authentication strategy "jwt" - /api/users - GET - ::1
-2020-09-14T07:51:12.046Z error 500 - Unknown authentication strategy "jwt" - /api/users - GET - ::1
-2020-09-14T07:51:29.423Z error 500 - Unknown authentication strategy "jwt" - /api/users - GET - ::1
-2020-09-14T07:55:00.695Z error 500 - Unknown authentication strategy "jwt" - /api/users - GET - ::1
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T13:59:01.272Z error uncaughtException: Unexpected token '}'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:123
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T13:59:05.553Z error uncaughtException: Unexpected token '}'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:123
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T14:14:47.097Z error uncaughtException: Unexpected token ')'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:131
+    return res.status(201).json({status:'success', message:'password reset successfully')
+                                                                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T14:27:08.948Z error 500 - data and salt arguments required - /api/users/resetpassword - POST - ::1
+

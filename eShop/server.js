@@ -1,4 +1,3 @@
-const config = require("config");
 require("express-async-errors");
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -8,14 +7,25 @@ const morgan = require("morgan");
 const winston = require("./server/config/winston");
 const auth = require("./server/routes/api/auth");
 const user = require("./server/routes/api/user");
+const { dbUri } = require("./server/config/db");
+
+const passport = require("passport");
 
 const passport = require("passport");
 
 //connect to database
-mongoose
-  .connect("mongodb://localhost/shop")
-  .then(() => console.log("database connected successfully"))
-  .catch((err) => console.log(err));
+// mongoose
+//   .connect("mongodb://localhost/shop")
+//   .then(() => console.log("database connected successfully"))
+//   .catch((err) => console.log(err));
+
+// Connect to Atlas database online
+
+mongoose.connect(dbUri, {
+  useNewUrlParser:true,
+  useUnifiedTopology:true
+}).then(()=>console.log("MongoDB connected successfully")
+).catch((err)=>console.log(err))
 
 const app = express();
 
