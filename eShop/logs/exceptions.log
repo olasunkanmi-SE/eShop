@@ -309,3 +309,131 @@ ReferenceError: I is not defined
     at Function.Module._load (internal/modules/cjs/loader.js:878:14)
     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
     at internal/main/run_main_module.js:17:47
+2020-09-15T13:52:20.035Z error uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/node_modules/express/lib/router/route.js:202:15)
+    at Function.proto.<computed> [as post] (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/node_modules/express/lib/router/index.js:510:19)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:9:8)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+    at internal/main/run_main_module.js:17:47
+2020-09-15T13:58:38.309Z error uncaughtException: Unexpected token '}'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:124
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T13:58:47.556Z error uncaughtException: Unexpected token '}'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:123
+};
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T13:59:01.272Z error uncaughtException: Unexpected token '}'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:123
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T13:59:05.553Z error uncaughtException: Unexpected token '}'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:123
+}
+^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-09-15T14:14:47.097Z error uncaughtException: Unexpected token ')'
+/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/controllers/user.js:131
+    return res.status(201).json({status:'success', message:'password reset successfully')
+                                                                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:1053:16)
+    at Module._compile (internal/modules/cjs/loader.js:1101:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server/routes/api/user.js:3:24)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
