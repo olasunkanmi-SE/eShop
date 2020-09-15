@@ -1,4 +1,4 @@
-const config = require("config");
+
 require("express-async-errors");
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -8,6 +8,7 @@ const morgan = require("morgan");
 const winston = require("./server/config/winston");
 const auth = require("./server/routes/api/auth");
 const user = require("./server/routes/api/user");
+const {dbUri} = require('./server/config/db')
 
 const passport = require("passport");
 
@@ -18,8 +19,8 @@ const passport = require("passport");
 //   .catch((err) => console.log(err));
 
 //Connect to Atlas database online
-const uri = "mongodb+srv://kosemani:omowunmi@cluster0.qj8ln.mongodb.net/shop?retryWrites=true&w=majority"
-mongoose.connect(uri, {
+
+mongoose.connect(dbUri, {
   useNewUrlParser:true,
   useUnifiedTopology:true
 }).then(()=>console.log("MongoDB connected successfully")
