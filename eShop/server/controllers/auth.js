@@ -19,7 +19,7 @@ module.exports.auth = async (req, res) => {
   if (!validPassword) {
     return res.status(404).send("invalid Username or Password");
   }
-  const payload = { _id: user._id, email: user.email };
+  const payload = { _id: user._id, email: user.email, isAdmin: user.isAdmin };
   const token = await jwt.sign(payload, keys.jwtPrivateKey, {
     expiresIn: 3600,
   });
