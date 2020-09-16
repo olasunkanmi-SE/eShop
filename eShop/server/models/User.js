@@ -23,6 +23,10 @@ const userSchema = new Schema({
     minlength: 5,
     maxlength: 1024,
   },
+  isAdmin: {
+    type: Boolean,
+    default: false,
+  },
   confirmPassword: Joi.ref("password"),
   resetToken: String,
   resetTokenExpiration: Date,

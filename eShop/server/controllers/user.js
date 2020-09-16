@@ -48,6 +48,7 @@ module.exports.getUsers = async (req, res) => {
         _id: user._id,
         name: user.name,
         email: user.email,
+        isAdmin: user.isAdmin,
         request: {
           type: "GET",
           url: `http://localhost:5000/api/users/${user._id}`,

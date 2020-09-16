@@ -11,8 +11,6 @@ const { dbUri } = require("./server/config/db");
 
 const passport = require("passport");
 
-const passport = require("passport");
-
 //connect to database
 // mongoose
 //   .connect("mongodb://localhost/shop")
@@ -21,11 +19,13 @@ const passport = require("passport");
 
 // Connect to Atlas database online
 
-mongoose.connect(dbUri, {
-  useNewUrlParser:true,
-  useUnifiedTopology:true
-}).then(()=>console.log("MongoDB connected successfully")
-).catch((err)=>console.log(err))
+mongoose
+  .connect(dbUri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log("MongoDB connected successfully"))
+  .catch((err) => console.log(err));
 
 const app = express();
 
