@@ -8,8 +8,7 @@ const winston = require("./server/config/winston");
 const auth = require("./server/routes/api/auth");
 const user = require("./server/routes/api/user");
 const { dbUri } = require("./server/config/db");
-
-const passport = require("passport");
+const cors = require("cors");
 
 //connect to database
 // mongoose
@@ -28,6 +27,8 @@ mongoose
   .catch((err) => console.log(err));
 
 const app = express();
+
+app.use(cors());
 
 //Parse the body of a request
 app.use(bodyParser.json());

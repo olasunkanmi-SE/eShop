@@ -466,3 +466,7 @@ SyntaxError: Unexpected token ')'
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
 2020-09-15T14:27:08.948Z error 500 - data and salt arguments required - /api/users/resetpassword - POST - ::1
 
+2020-09-16T16:30:49.307Z info ::ffff:172.18.180.47 - - [16/Sep/2020:16:30:49 +0000] "GET / HTTP/1.1" 404 139 "-" "-"
+
+2020-09-19T22:39:56.700Z info ::1 - - [19/Sep/2020:22:39:56 +0000] "GET /api/user HTTP/1.1" 404 147 "http://localhost:4200/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
+
