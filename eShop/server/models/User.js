@@ -27,6 +27,10 @@ const userSchema = new Schema({
     type: Boolean,
     default: false,
   },
+  isActive: {
+    type: Number,
+    default: 0,
+  },
   confirmPassword: Joi.ref("password"),
   resetToken: String,
   resetTokenExpiration: Date,
