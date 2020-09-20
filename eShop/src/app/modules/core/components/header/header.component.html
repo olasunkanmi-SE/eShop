@@ -9,18 +9,49 @@
   >
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item> &nbsp;Home</a>
-      <a mat-list-item>Developers</a>
-      <a mat-list-item>feeds</a>
-      <button mat-button [matMenuTriggerFor]="beforeMenu" class="btncolor">
-        Profile
-      </button>
-      <mat-menu #beforeMenu="matMenu" xPosition="after">
-        <button mat-menu-item>Account</button>
-        <button mat-menu-item>View Profile</button>
-        <button mat-menu-item>Settings</button>
-        <button mat-menu-item>Post & Activities</button>
+      <button mat-button [matMenuTriggerFor]="products">Products</button>
+      <mat-menu #products="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="electronics">
+          Electronic Devices
+        </button>
+        <button mat-menu-item [matMenuTriggerFor]="accessories">
+          Electronic Accessories
+        </button>
       </mat-menu>
+
+      <mat-menu #electronics="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="mobile">
+          Mobile & Tablets
+        </button>
+        <button mat-menu-item [matMenuTriggerFor]="laptops">Laptops</button>
+      </mat-menu>
+
+      <mat-menu #accessories="matMenu">
+        <button mat-menu-item [matMenuTriggerFor]="mobileaccessories">
+          Mobile & Tablets
+        </button>
+        <button mat-menu-item [matMenuTriggerFor]="audio">Audio</button>
+      </mat-menu>
+
+      <mat-menu #mobile="matMenu">
+        <button mat-menu-item>Mobiles</button>
+        <button mat-menu-item>Tablets</button>
+      </mat-menu>
+
+      <mat-menu #laptops="matMenu">
+        <button mat-menu-item>Traditional Laptops</button>
+        <button mat-menu-item>Gaming Laptops</button>
+      </mat-menu>
+
+      <mat-menu #mobileaccessories="matMenu">
+        <button mat-menu-item>Phone Cases Cover</button>
+        <button mat-menu-item>Power Bank</button>
+      </mat-menu>
+      <mat-menu #audio="matMenu">
+        <button mat-menu-item>Headphones & Headsets</button>
+        <button mat-menu-item>Portable Speakers</button>
+      </mat-menu>
+
       <a mat-list-item href="#">Notifications</a>
       <a mat-list-item>Sign Up</a>
       <a mat-list-item>Sign In</a>
@@ -43,16 +74,47 @@
 
       <span class="spacer"></span>
       <span class="main-menu">
-        <a></a>
-        <a>Home</a>
-        <a mat-list-item>feeds</a>
+        <button mat-button [matMenuTriggerFor]="products">Products</button>
+        <mat-menu #products="matMenu">
+          <button mat-menu-item [matMenuTriggerFor]="electronics">
+            Electronic Devices
+          </button>
+          <button mat-menu-item [matMenuTriggerFor]="accessories">
+            Electronic Accessories
+          </button>
+        </mat-menu>
 
-        <button mat-button [matMenuTriggerFor]="beforeMenu">Profile</button>
-        <mat-menu #beforeMenu="matMenu" xPosition="before">
-          <button mat-menu-item>Account</button>
-          <button mat-menu-item>View Profile</button>
-          <button mat-menu-item>Settings</button>
-          <button mat-menu-item>Post & Activities</button>
+        <mat-menu #electronics="matMenu">
+          <button mat-menu-item [matMenuTriggerFor]="mobile">
+            Mobile & Tablets
+          </button>
+          <button mat-menu-item [matMenuTriggerFor]="laptops">Laptops</button>
+        </mat-menu>
+
+        <mat-menu #accessories="matMenu">
+          <button mat-menu-item [matMenuTriggerFor]="mobileaccessories">
+            Mobile & Tablets
+          </button>
+          <button mat-menu-item [matMenuTriggerFor]="audio">Audio</button>
+        </mat-menu>
+
+        <mat-menu #mobile="matMenu">
+          <button mat-menu-item>Mobiles</button>
+          <button mat-menu-item>Tablets</button>
+        </mat-menu>
+
+        <mat-menu #laptops="matMenu">
+          <button mat-menu-item>Traditional Laptops</button>
+          <button mat-menu-item>Gaming Laptops</button>
+        </mat-menu>
+
+        <mat-menu #mobileaccessories="matMenu">
+          <button mat-menu-item>Phone Cases Cover</button>
+          <button mat-menu-item>Power Bank</button>
+        </mat-menu>
+        <mat-menu #audio="matMenu">
+          <button mat-menu-item>Headphones & Headsets</button>
+          <button mat-menu-item>Portable Speakers</button>
         </mat-menu>
         <a href="#">Notification</a>
         <a>Sign Up</a>
