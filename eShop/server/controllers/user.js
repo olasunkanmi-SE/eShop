@@ -139,5 +139,7 @@ module.exports.resetPassword = async (req, res) => {
 };
 
 module.exports.updateUser = async (req, res) => {
-  const user = await User.findOne({ _id: req.body.userId });
+  const user = await User.findById(req.params.id);
+  if (user) {
+  }
 };
