@@ -470,3 +470,4 @@ SyntaxError: Unexpected token ')'
 
 2020-09-19T22:39:56.700Z info ::1 - - [19/Sep/2020:22:39:56 +0000] "GET /api/user HTTP/1.1" 404 147 "http://localhost:4200/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36"
 
+2020-09-26T06:20:59.883Z error 500 - data and salt arguments required - /api/users/resetpassword - POST - ::1

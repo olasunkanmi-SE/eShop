@@ -126,6 +126,7 @@ module.exports.resetPassword = async (req, res) => {
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(newPassword, salt);
     user.password = hashedPassword;
+    user.confirmPassword = hashedPassword;
     user.resetToken = undefined;
     user.resetTokenExpiration = undefined;
     user.save();
@@ -135,4 +136,8 @@ module.exports.resetPassword = async (req, res) => {
   } else {
     return res.status(404).send("user does not exist");
   }
+};
+
+module.exports.updateUser = async (req, res) => {
+  const user = await User.findOne({ _id: req.body.userId });
 };
