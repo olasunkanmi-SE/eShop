@@ -16,6 +16,17 @@ export class HeaderComponent implements OnInit {
       shareReplay()
     );
 
+  electronicsDevices;
+  mobiles: string[] = [];
+  accessories: string[] = [];
+  fashion: string[] = [];
+  laptops: string[] = [];
+  games: string[] = [];
+  watches: string[] = [];
+  mobileAccessories: string[] = [];
+  audios: string[] = [];
+  smartDevices: string[] = [];
+
   constructor(private breakpointObserver: BreakpointObserver) {}
 
   productsCategory = [
@@ -84,5 +95,22 @@ export class HeaderComponent implements OnInit {
     },
   ];
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.getProducts();
+  }
+
+  getProducts() {
+    const products: any[] = [];
+    this.productsCategory.map((product) => {
+      products.push(product);
+      console.log(product);
+      const electronics = products[0].children.length;
+      this.mobiles = products[0].children[0].children;
+      this.laptops = products[0].children[electronics - 3].children;
+      this.games = products[0].children[electronics - 2].children;
+      this.watches = products[0].children[electronics - 1].children;
+
+      return products;
+    });
+  }
 }
