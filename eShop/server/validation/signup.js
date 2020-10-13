@@ -1,5 +1,5 @@
-const Joi = require("joi");
-const validateSignUp = (user) => {
+import Joi from "joi";
+export const validateSignUp = (user) => {
   const Schema = Joi.object().keys({
     name: Joi.string().min(5).max(50).required(),
     email: Joi.string().min(5).max(50).email().required(),
@@ -9,5 +9,3 @@ const validateSignUp = (user) => {
 
   return Schema.validate(user);
 };
-
-exports.validate = validateSignUp;

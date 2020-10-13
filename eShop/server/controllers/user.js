@@ -1,13 +1,13 @@
-const { validate } = require("../validation/signup");
-const { User } = require("../models/User");
-const bcrypt = require("bcrypt");
-const crypto = require("crypto");
-const winston = require("winston");
+import { validateSignUp } from "../validation/signup.js";
+import { User } from "../models/User.js";
+import bcrypt from "bcrypt";
+import crypto from "crypto";
+import winston from "winston";
 
 //Register a new user
 
-module.exports.register = async (req, res) => {
-  const { error } = validate(req.body);
+export const register = async (req, res) => {
+  const { error } = validateSignUp(req.body);
   if (error) {
     return res.status(400).json(error.details[0].message);
   }
@@ -39,7 +39,7 @@ module.exports.register = async (req, res) => {
 
 //Get all users
 
-module.exports.getUsers = async (req, res) => {
+export const getUsers = async (req, res) => {
   let users = await User.find();
   let response = {
     count: users.length,
@@ -62,7 +62,7 @@ module.exports.getUsers = async (req, res) => {
 
 //Return current logged in user
 
-module.exports.getCurrentUser = async (req, res) => {
+export const getCurrentUser = async (req, res) => {
   let user = req.user;
   return res.status(200).json({
     _id: user._id,
@@ -74,7 +74,7 @@ module.exports.getCurrentUser = async (req, res) => {
 
 //Generate a URL string to reset user password
 
-module.exports.generatePasswordResetURL = async (req, res) => {
+export const generatePasswordResetURL = async (req, res) => {
   const user = await User.findOne({ email: req.body.email });
   if (!user) {
     res.status(404).send("user does not exist");
@@ -95,7 +95,7 @@ module.exports.generatePasswordResetURL = async (req, res) => {
 
 //Retrieve user information from the URl params
 
-module.exports.getUserToken = async (req, res) => {
+export const getUserToken = async (req, res) => {
   const token = req.params.token;
   if (token) {
     const user = await User.findOne({ resetToken: token });
@@ -119,13 +119,14 @@ module.exports.getUserToken = async (req, res) => {
 
 //Reset a user password
 
-module.exports.resetPassword = async (req, res) => {
+export const resetPassword = async (req, res) => {
   const user = await User.findOne({ _id: req.body.userId });
   if (user) {
     const newPassword = req.body.password;
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(newPassword, salt);
     user.password = hashedPassword;
+    user.confirmPassword = hashedPassword;
     user.resetToken = undefined;
     user.resetTokenExpiration = undefined;
     user.save();
@@ -134,5 +135,11 @@ module.exports.resetPassword = async (req, res) => {
       .json({ status: "success", message: "password reset successfully" });
   } else {
     return res.status(404).send("user does not exist");
+  }
+};
+
+export const updateUser = async (req, res) => {
+  const user = await User.findById(req.params.id);
+  if (user) {
   }
 };

@@ -1,14 +1,21 @@
-require("express-async-errors");
-const express = require("express");
-const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
-const error = require("./server/middlewares/error");
-const morgan = require("morgan");
-const winston = require("./server/config/winston");
-const auth = require("./server/routes/api/auth");
-const user = require("./server/routes/api/user");
-const { dbUri } = require("./server/config/db");
-const cors = require("cors");
+
+import("express-async-errors");
+import express from "express";
+import bodyParser from "body-parser";
+import mongoose from "mongoose";
+import { error } from "./server/middlewares/error.js";
+import morgan from "morgan";
+import { logger } from "./server/config/winston.js";
+import { authRouter } from "./server/routes/api/auth.js";
+const auth = authRouter;
+import { userRouter } from "./server/routes/api/user.js";
+const user = userRouter;
+
+import { dbUri } from "./server/config/db.js";
+import cors from "cors";
+import passport from "passport";
+import { passportStrategy } from "./server/config/passport.js";
+
 
 //connect to database
 // mongoose
@@ -38,7 +45,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(passport.initialize());
 
 //protect, the protected routes with passport
-require("./server/config/passport")(passport);
+passportStrategy(passport);
 
 //Specify API locations
 app.use("/api/login", auth);
@@ -46,7 +53,7 @@ app.use("/api/users", user);
 
 //Routes error handling and logging
 app.use(error);
-app.use(morgan("combined", { stream: winston.stream }));
+app.use(morgan("combined", { stream: logger.stream }));
 
 // Assign port
 const port = process.env.PORT || 5000;

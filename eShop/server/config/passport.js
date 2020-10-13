@@ -1,15 +1,16 @@
-const JWTStrategy = require("passport-jwt").Strategy;
-const ExtractJWT = require("passport-jwt").ExtractJwt;
-const { User } = require("../models/User");
-const keys = require("../config/default.json");
-const winston = require("winston");
+import { Strategy, ExtractJwt } from "passport-jwt";
+const JWTStrategy = Strategy;
+const ExtractJWT = ExtractJwt;
+import { User } from "../models/User.js";
+import { keys } from "../config/default.js";
+import * as winston from "winston";
 
 const opts = {
   jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
   secretOrKey: keys.jwtPrivateKey,
 };
 
-module.exports = (passport) => {
+export const passportStrategy = (passport) => {
   passport.use(
     new JWTStrategy(opts, async (jwt_payload, done) => {
       try {
@@ -17,11 +18,10 @@ module.exports = (passport) => {
         if (user) {
           return done(null, user);
         } else {
-          console.log("no user");
           return done(null, false);
         }
       } catch (error) {
-        winston.error(error);
+        winston.error();
       }
     })
   );

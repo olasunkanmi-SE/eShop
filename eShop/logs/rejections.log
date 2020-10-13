@@ -437,3 +437,1271 @@ SyntaxError: Unexpected token ')'
     at require (internal/modules/cjs/helpers.js:72:18)
     at Object.<anonymous> (/Users/olasunkanmi/Documents/applications/eshop/eShop/eShop/server.js:9:14)
     at Module._compile (internal/modules/cjs/loader.js:1137:30)
+2020-10-13T06:09:48.034Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:8:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:14:18.898Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:8:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:15:39.123Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:8:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:16:22.120Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:8:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:17:15.187Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:8:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:23:17.120Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:10:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:23:17.420Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:24:41.781Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:10:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:24:42.018Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:24:56.088Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:10:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:24:56.282Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:26:26.689Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:10:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:26:26.951Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:26:33.027Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:10:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:26:33.189Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:28:19.795Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:10:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:28:20.221Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:28:23.729Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:10:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:28:23.936Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:29:18.008Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:10:19
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:29:18.089Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:29:37.600Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:11:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:29:37.706Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:29:37.787Z error unhandledRejection: exports is not defined
+ReferenceError: exports is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/db.js:2:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+2020-10-13T06:29:55.173Z error uncaughtException: cors is not a function
+TypeError: cors is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:33:9
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:29:55.250Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:29:55.315Z error unhandledRejection: exports is not defined
+ReferenceError: exports is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/db.js:2:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+2020-10-13T06:30:13.556Z error uncaughtException: cors is not a function
+TypeError: cors is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:33:9
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:30:13.617Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:30:13.695Z error unhandledRejection: exports is not defined
+ReferenceError: exports is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/db.js:2:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+2020-10-13T06:30:56.392Z error uncaughtException: cors is not a function
+TypeError: cors is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:33:9
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:30:56.456Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:31:55.202Z error uncaughtException: cors is not a function
+TypeError: cors is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:33:9
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:31:55.388Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:33:26.547Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:42:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:33:26.655Z error uncaughtException: write after end
+Error: write after end
+    at writeAfterEnd (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:261:12)
+    at PassThrough.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:305:21)
+    at File.log (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\transports\file.js:185:34)
+    at ExceptionStream._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\exception-stream.js:48:29)
+    at doWrite (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at ExceptionStream.Writable.write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:326:22)
+    at addChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\lib\winston\logger.js:305:12)
+    at DerivedLogger.Transform._read (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\winston\node_modules\readable-stream\lib\_stream_transform.js:164:83)
+2020-10-13T06:33:55.589Z error uncaughtException: ImportCall("./server/config/passport") is not a function
+TypeError: ImportCall("./server/config/passport") is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:42:35
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:33:55.626Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+Did you mean to import ../server/config/passport.js?
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+Did you mean to import ../server/config/passport.js?
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:42:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:35:48.438Z error uncaughtException: ImportCall("./server/config/passport") is not a function
+TypeError: ImportCall("./server/config/passport") is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:42:35
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:35:48.493Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+Did you mean to import ../server/config/passport.js?
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+Did you mean to import ../server/config/passport.js?
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:42:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:36:52.998Z error uncaughtException: ImportCall("./server/config/passport") is not a function
+TypeError: ImportCall("./server/config/passport") is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:42:35
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:36:53.024Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+Did you mean to import ../server/config/passport.js?
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server.js
+Did you mean to import ../server/config/passport.js?
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:42:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:38:44.361Z error uncaughtException: Cannot read property 'fromAuthHeaderAsBearerToken' of undefined
+TypeError: Cannot read property 'fromAuthHeaderAsBearerToken' of undefined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:8:30
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:38:44.464Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:3:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:38:44.475Z error unhandledRejection: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+    at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:65:15)
+    at Loader.getFormat (internal/modules/esm/loader.js:101:42)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:230:31)
+    at async Loader.import (internal/modules/esm/loader.js:164:17)
+2020-10-13T06:38:49.390Z error uncaughtException: Cannot read property 'fromAuthHeaderAsBearerToken' of undefined
+TypeError: Cannot read property 'fromAuthHeaderAsBearerToken' of undefined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:8:30
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:38:49.466Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:3:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:38:49.477Z error unhandledRejection: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+    at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:65:15)
+    at Loader.getFormat (internal/modules/esm/loader.js:101:42)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:230:31)
+    at async Loader.import (internal/modules/esm/loader.js:164:17)
+2020-10-13T06:39:51.448Z error uncaughtException: Cannot read property 'fromAuthHeaderAsBearerToken' of undefined
+TypeError: Cannot read property 'fromAuthHeaderAsBearerToken' of undefined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:8:30
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:39:51.524Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:3:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:39:51.570Z error unhandledRejection: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+    at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:65:15)
+    at Loader.getFormat (internal/modules/esm/loader.js:101:42)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:230:31)
+    at async Loader.import (internal/modules/esm/loader.js:164:17)
+2020-10-13T06:46:07.068Z error uncaughtException: Cannot read property 'fromAuthHeaderAsBearerToken' of undefined
+TypeError: Cannot read property 'fromAuthHeaderAsBearerToken' of undefined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:9:30
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:46:07.079Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:4:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:46:07.100Z error unhandledRejection: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+    at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:65:15)
+    at Loader.getFormat (internal/modules/esm/loader.js:101:42)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:230:31)
+    at async Loader.import (internal/modules/esm/loader.js:164:17)
+2020-10-13T06:47:27.661Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at passportStrategy (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:16:5)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:43:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:47:27.694Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:5:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:47:27.712Z error unhandledRejection: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+    at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:65:15)
+    at Loader.getFormat (internal/modules/esm/loader.js:101:42)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:230:31)
+    at async Loader.import (internal/modules/esm/loader.js:164:17)
+2020-10-13T06:47:45.223Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at passportStrategy (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:16:5)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:43:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:47:45.235Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:5:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:47:45.290Z error unhandledRejection: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+    at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:65:15)
+    at Loader.getFormat (internal/modules/esm/loader.js:101:42)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:230:31)
+    at async Loader.import (internal/modules/esm/loader.js:164:17)
+2020-10-13T06:49:20.589Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:45:15)
+    at passportStrategy (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:16:5)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:43:1
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:49:20.643Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:5:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:49:20.706Z error unhandledRejection: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".json" for C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json
+    at Loader.defaultGetFormat [as _getFormat] (internal/modules/esm/get_format.js:65:15)
+    at Loader.getFormat (internal/modules/esm/loader.js:101:42)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:230:31)
+    at async Loader.import (internal/modules/esm/loader.js:164:17)
+2020-10-13T06:49:49.174Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:6:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:49:49.206Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:5:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:55:50.282Z error uncaughtException: Router.use() requires a middleware function but got a Promise
+TypeError: Router.use() requires a middleware function but got a Promise
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:217:7)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:55:50.370Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:5:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:56:24.963Z error uncaughtException: Router.use() requires a middleware function but got a Promise
+TypeError: Router.use() requires a middleware function but got a Promise
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:217:7)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:56:25.024Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:5:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:56:31.404Z error uncaughtException: Router.use() requires a middleware function but got a Promise
+TypeError: Router.use() requires a middleware function but got a Promise
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:217:7)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:56:31.435Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:4:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:59:40.977Z error uncaughtException: Router.use() requires a middleware function but got a Promise
+TypeError: Router.use() requires a middleware function but got a Promise
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:217:7)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:59:41.038Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:4:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:59:57.912Z error uncaughtException: Router.use() requires a middleware function but got a Promise
+TypeError: Router.use() requires a middleware function but got a Promise
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:217:7)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T06:59:57.941Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:4:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:00:16.112Z error uncaughtException: Router.use() requires a middleware function but got a Promise
+TypeError: Router.use() requires a middleware function but got a Promise
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:217:7)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:00:16.130Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:4:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:03:23.937Z error uncaughtException: Router.use() requires a middleware function but got a Promise
+TypeError: Router.use() requires a middleware function but got a Promise
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\application.js:217:7)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server.js:46:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:03:23.985Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:4:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:04:53.003Z error uncaughtException: Joi.ref is not a function
+TypeError: Joi.ref is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/models/User.js:34:24
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:06:39.372Z error uncaughtException: Cannot read property 'resolve' of undefined
+TypeError: Cannot read property 'resolve' of undefined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/models/User.js:34:28
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:06:51.461Z error uncaughtException: Joi.ref is not a function
+TypeError: Joi.ref is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/models/User.js:34:24
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:09:38.127Z error uncaughtException: Joi.ref is not a function
+TypeError: Joi.ref is not a function
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/models/User.js:35:24
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:14:56.495Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/routes/api/user.js:1:17
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:14:56.514Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:15:08.158Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/routes/api/user.js:1:17
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:15:08.173Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:16:35.199Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:1:22
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:16:35.301Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:17:53.453Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:1:22
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:17:53.465Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:18:41.065Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:1:22
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:18:41.077Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:19:12.759Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:1:22
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:19:12.788Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:19:35.154Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:1:22
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:19:35.169Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:19:57.955Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:1:22
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:19:57.968Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:21:07.799Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:1:22
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:21:07.815Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:22:00.536Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:1:22
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:22:00.568Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:22:44.164Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/validation/signup.js:1:13
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:22:44.198Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:23:15.430Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/validation/signup.js:1:13
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:23:15.442Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:25:19.206Z error uncaughtException: require is not defined
+ReferenceError: require is not defined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/validation/signup.js:1:13
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:25:19.232Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:25:42.753Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\default.json.js' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\controllers\auth.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:5:14
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:25:42.763Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:4:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:27:05.469Z error unhandledRejection: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\models\User' imported from C:\Users\oyino\Documents\Applications\shop\eShop\eShop\server\config\passport.js
+    at finalizeResolution (internal/modules/esm/resolve.js:276:11)
+    at moduleResolve (internal/modules/esm/resolve.js:699:10)
+    at Loader.defaultResolve [as _resolve] (internal/modules/esm/resolve.js:810:11)
+    at Loader.resolve (internal/modules/esm/loader.js:85:40)
+    at Loader.getModuleJob (internal/modules/esm/loader.js:229:28)
+    at Loader.import (internal/modules/esm/loader.js:164:28)
+    at importModuleDynamically (internal/modules/esm/translators.js:99:35)
+    at exports.importModuleDynamicallyCallback (internal/process/esm_loader.js:30:14)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:4:18
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-13T07:29:53.162Z error unhandledRejection: Joi.object is not a function
+TypeError: Joi.object is not a function
+    at Module.validateSignIn (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/validation/auth.js:4:22)
+    at auth (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:10:30)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:275:10)
+2020-10-13T07:30:28.170Z error unhandledRejection: secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\sign.js:107:20)
+    at auth (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:23:27)
+2020-10-13T07:33:53.448Z error unhandledRejection: secretOrPrivateKey must have a value
+Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\sign.js:107:20)
+    at auth (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/auth.js:23:27)
+2020-10-13T08:04:46.484Z error unhandledRejection: winston.error is not a function
+TypeError: winston.error is not a function
+    at JwtStrategy._verify (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:25:17)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:123:34
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:94:10)
+    at Function.module.exports [as JwtVerifier] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:281:22
+2020-10-13T08:08:03.887Z error unhandledRejection: winston.error is not a function
+TypeError: winston.error is not a function
+    at JwtStrategy._verify (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:25:17)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:123:34
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:94:10)
+    at Function.module.exports [as JwtVerifier] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:281:22
+2020-10-13T08:18:33.050Z error unhandledRejection: winston.winston is not a function
+TypeError: winston.winston is not a function
+    at JwtStrategy._verify (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:25:17)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:123:34
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:94:10)
+    at Function.module.exports [as JwtVerifier] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:281:22
+2020-10-13T08:18:46.679Z error unhandledRejection: winston is not a function
+TypeError: winston is not a function
+    at JwtStrategy._verify (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:25:9)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:123:34
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:94:10)
+    at Function.module.exports [as JwtVerifier] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:281:22
+2020-10-13T08:22:27.096Z error unhandledRejection: winston is not a function
+TypeError: winston is not a function
+    at JwtStrategy._verify (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/config/passport.js:25:9)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:123:34
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\jsonwebtoken\verify.js:94:10)
+    at Function.module.exports [as JwtVerifier] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\verify_jwt.js:4:16)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:104:25
+    at JwtStrategy._secretOrKeyProvider (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:40:13)
+    at JwtStrategy.authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport-jwt\lib\strategy.js:99:10)
+    at attempt (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:366:16)
+    at authenticate (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\passport\lib\middleware\authenticate.js:367:7)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:281:22
