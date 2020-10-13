@@ -1,8 +1,8 @@
-const express = require("express");
+import express from "express";
 const router = express.Router();
-const userController = require("../../controllers/user");
-const auth = require("../../middlewares/auth");
-const isAdmin = require("../../middlewares/admin");
+import * as userController from "../../controllers/user.js";
+import { auth } from "../../middlewares/auth.js";
+import { isAdmin } from "../../middlewares/admin.js";
 
 router.post("/signup", userController.register);
 router.get("/", [auth, isAdmin], userController.getUsers);
@@ -11,4 +11,4 @@ router.post("/generatetoken", userController.generatePasswordResetURL);
 router.get("/reset/:token", userController.getUserToken);
 router.post("/resetpassword", userController.resetPassword);
 
-module.exports = router;
+export const userRouter = router;

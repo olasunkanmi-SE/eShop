@@ -1,13 +1,13 @@
-const { User } = require("./../models/User");
-const { validate } = require("./../validation/auth");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
-const keys = require("../config/default.json");
+import { User } from "./../models/User.js";
+import * as validate from "./../validation/auth.js";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
+import { keys } from "../config/default.js";
 
 //Authenticate a user
 
-module.exports.auth = async (req, res) => {
-  const { error } = validate(req.body);
+export const auth = async (req, res) => {
+  const { error } = validate.validateSignIn(req.body);
   if (error) {
     return res.status(400).json(error.details[0].message);
   }

@@ -1,4 +1,4 @@
-const winston = require("winston");
+import winston from "winston";
 
 const errorFormat = winston.format.printf((info) => {
   return `${info.timestamp} ${info.level} ${info.message}`;
@@ -26,7 +26,7 @@ const options = {
   },
 };
 
-const logger = winston.createLogger({
+export const logger = winston.createLogger({
   format: winston.format.combine(winston.format.timestamp(), errorFormat),
   transports: [
     new winston.transports.File(options.file),
@@ -47,5 +47,3 @@ logger.stream = {
     logger.info(message);
   },
 };
-
-module.exports = logger;

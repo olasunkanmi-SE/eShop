@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const Joi = require("joi");
+import mongoose from "mongoose";
+import Joi from "joi";
 
 const { Schema } = mongoose;
 
@@ -40,6 +40,4 @@ const userSchema = new Schema({
   },
 });
 
-const User = mongoose.model("User", userSchema);
-
-exports.User = User;
+export const User = mongoose.model("User", userSchema);
