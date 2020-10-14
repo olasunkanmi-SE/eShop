@@ -1,3 +1,4 @@
+import { CoreModule } from './../core/core.module';
 import { MaterialModule } from './../material/material.module';
 import { ForgotPasswordPageComponent } from './forgot-password/container/forgot-password-page.component';
 import { SignupPageComponent } from './signup/container/signup-page.component';
@@ -21,6 +22,6 @@ import { LoginPageComponent } from './login/container/login-page.component';
     ForgotPasswordComponent,
     ForgotPasswordPageComponent,
   ],
-  imports: [CommonModule, AuthRoutingModule, MaterialModule],
+  imports: [CommonModule, AuthRoutingModule, MaterialModule, CoreModule],
 })
 export class AuthModule {}
