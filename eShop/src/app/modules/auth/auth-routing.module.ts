@@ -1,16 +1,15 @@
-import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
-import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component';
+import { SignupPageComponent } from './signup/container/signup-page.component';
+import { LoginPageComponent } from './login/container/login-page.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
 import { AuthComponent } from './auth.component';
+import { ForgotPasswordPageComponent } from './forgot-password/container/forgot-password-page.component';
 
 const routes: Routes = [
   { path: '', component: AuthComponent },
-  { path: 'register', component: SignupComponent },
-  { path: 'signin', component: LoginComponent },
-  { path: 'forgotpassword', component: ForgotPasswordComponent },
+  { path: 'register', component: SignupPageComponent },
+  { path: 'signin', component: LoginPageComponent },
+  { path: 'forgotpassword', component: ForgotPasswordPageComponent },
 ];
 
 @NgModule({
