@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import * as appConstants from '../constants/index';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { throwError } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -11,7 +13,7 @@ export class ErrorService {
     this._snackBar.open(message, action, { duration: 2000 });
   }
 
-  httpError(errorStatus: number, error: string) {
+  backEndError(errorStatus: number, error: string) {
     switch (errorStatus) {
       case appConstants.CustomErrorCode.UN_KNOWN:
         this.openSnackBar('Server is Down', null);
@@ -71,5 +73,16 @@ export class ErrorService {
         this.openSnackBar(message, null);
         break;
     }
+  }
+
+  handleError(error: HttpErrorResponse) {
+    if (error.error instanceof ErrorEvent) {
+      let feedback = 'An error Occured';
+      this.openSnackBar(feedback, null);
+      console.log(error.error.message);
+    } else {
+      this.backEndError(error.status, error.error);
+    }
+    return throwError('Something bad happened. Please try again later');
   }
 }
