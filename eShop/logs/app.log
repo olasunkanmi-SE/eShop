@@ -1,0 +1,10 @@
+2020-10-21T04:28:37.589Z info ::1 - - [21/Oct/2020:04:28:37 +0000] "GET /ap/users HTTP/1.1" 404 147 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36"
+
+2020-10-21T04:30:31.243Z info ::1 - - [21/Oct/2020:04:30:31 +0000] "GET /ap/users HTTP/1.1" 404 147 "http://localhost:4200/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+2020-10-21T04:31:28.544Z info ::1 - - [21/Oct/2020:04:31:28 +0000] "GET /ap/users HTTP/1.1" 404 147 "http://localhost:4200/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+2020-10-21T04:31:46.171Z info ::1 - - [21/Oct/2020:04:31:46 +0000] "GET /ap/users HTTP/1.1" 404 147 "-" "PostmanRuntime/7.26.5"
+
+2020-10-21T04:32:03.589Z info ::1 - - [21/Oct/2020:04:32:03 +0000] "GET /ap/users HTTP/1.1" 404 147 "http://localhost:4200/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
