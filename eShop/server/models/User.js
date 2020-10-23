@@ -31,6 +31,7 @@ const userSchema = new Schema(
     isActive: {
       type: Number,
       default: 0,
+      enum: [0, 1],
     },
     confirmPassword: Joi.ref("password"),
     resetToken: String,
