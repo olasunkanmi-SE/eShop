@@ -1,0 +1,4 @@
+2020-10-23T07:57:03.785Z error unhandledRejection: winston is not a function
+TypeError: winston is not a function
+    at deleteUser (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:197:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)

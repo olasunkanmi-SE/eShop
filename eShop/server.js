@@ -15,21 +15,22 @@ import cors from "cors";
 import passport from "passport";
 import { passportStrategy } from "./server/config/passport.js";
 
-// connect to database
-mongoose
-  .connect("mongodb://localhost/shop", { useFindAndModify: false })
-  .then(() => console.log("database connected successfully"))
-  .catch((err) => console.log(err));
+// // connect to database
+// mongoose
+//   .connect("mongodb://localhost/shop", { useFindAndModify: false })
+//   .then(() => console.log("database connected successfully"))
+//   .catch((err) => console.log(err));
 
 // Connect to Atlas database online
 
-// mongoose
-//   .connect(dbUri, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//   })
-//   .then(() => console.log("MongoDB connected successfully"))
-//   .catch((err) => console.log(err));
+mongoose
+  .connect(dbUri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false,
+  })
+  .then(() => console.log("MongoDB connected successfully"))
+  .catch((err) => console.log(err));
 
 const app = express();
 

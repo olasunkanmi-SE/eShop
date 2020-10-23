@@ -2,3 +2,13 @@
 
 2020-10-23T02:09:22.412Z info ::1 - - [23/Oct/2020:02:09:22 +0000] "GET /api/users/update/5f608a757aa79b1f73443cc1 HTTP/1.1" 404 180 "-" "PostmanRuntime/7.26.5"
 
+2020-10-23T07:35:22.826Z info ::1 - - [23/Oct/2020:07:35:22 +0000] "PUT /api/users/ HTTP/1.1" 404 149 "-" "PostmanRuntime/7.26.5"
+
+2020-10-23T07:35:50.592Z info ::1 - - [23/Oct/2020:07:35:50 +0000] "DELETE /api/users/delete/5f5f44eb725d383e140efd6c HTTP/1.1" 404 183 "-" "PostmanRuntime/7.26.5"
+
+2020-10-23T07:57:03.785Z error unhandledRejection: winston is not a function
+TypeError: winston is not a function
+    at deleteUser (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:197:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2020-10-23T08:13:58.417Z info ::1 - - [23/Oct/2020:08:13:58 +0000] "GET /api/users/updateuser/5f60dc285c8e3804e89e9b30 HTTP/1.1" 404 184 "-" "PostmanRuntime/7.26.5"
+

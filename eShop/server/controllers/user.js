@@ -3,6 +3,7 @@ import { User } from "../models/User.js";
 import bcrypt from "bcrypt";
 import crypto from "crypto";
 import winston from "winston";
+import { isAdmin } from "../middlewares/admin.js";
 
 //Register a new user
 
@@ -161,7 +162,13 @@ export const updateUser = async (req, res) => {
         );
         return res.status(201).json({
           message: "success",
-          user: {},
+          user: {
+            _id: user._id,
+            name: user.name,
+            email: user.email,
+            isActive: user.isActive,
+            isAdmin: user.isAdmin,
+          },
         });
       }
     } else if (!user) {
@@ -169,5 +176,22 @@ export const updateUser = async (req, res) => {
     }
   } catch (error) {
     winston.error(error);
+  }
+};
+
+//delete a User
+export const deleteUser = async (req, res) => {
+  try {
+    let user = await User.findById(req.params.id);
+    if (user) {
+      if (isAdmin) {
+        await User.findOneAndRemove({ _id: user._id });
+        res.status(201).json({ success: true });
+      }
+    } else {
+      return res.status(404).json("User does not exist");
+    }
+  } catch (error) {
+    console.log(error);
   }
 };
