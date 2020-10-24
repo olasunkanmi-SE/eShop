@@ -34,6 +34,14 @@ const productSchema = new Schema(
       required: true,
       default: 0,
     },
+    reviews: [
+      {
+        review: {
+          type: Schema.Types.ObjectId,
+          ref: "Review",
+        },
+      },
+    ],
     numReviews: {
       type: Number,
       required: true,

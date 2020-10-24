@@ -10,7 +10,7 @@ import { isAdmin } from "../middlewares/admin.js";
 export const register = async (req, res) => {
   const { error } = validateSignUp(req.body);
   if (error) {
-    return res.status(400).json(error.details[0].message);
+    return res.status(400).json({ validationError: error.details[0].message });
   }
   let user = await User.findOne({ email: req.body.email });
   if (user) {
@@ -143,55 +143,47 @@ export const resetPassword = async (req, res) => {
 //Update a User
 
 export const updateUser = async (req, res) => {
-  try {
-    let user = await User.findById(req.params.id);
-    if (user) {
-      const { errors, isValid } = validateUserUpdate(req.body);
-      if (!isValid) {
-        return res.status(400).json(errors);
-      } else {
-        const userFields = {};
-        if (req.body.isAdmin) userFields.isAdmin = req.body.isAdmin;
-        if (req.body.name) userFields.name = req.body.name;
-        if (req.body.isAdmin) userFields.isAdmin = req.body.isAdmin;
-        if (req.body.isActive) userFields.isActive = req.body.isActive;
-        user = await User.findByIdAndUpdate(
-          { _id: user._id },
-          { $set: userFields },
-          { new: true }
-        );
-        return res.status(201).json({
-          message: "success",
-          user: {
-            _id: user._id,
-            name: user.name,
-            email: user.email,
-            isActive: user.isActive,
-            isAdmin: user.isAdmin,
-          },
-        });
-      }
-    } else if (!user) {
-      return res.status(404).json("User does not exist");
+  let user = await User.findById(req.params.id);
+  if (user) {
+    const { errors, isValid } = validateUserUpdate(req.body);
+    if (!isValid) {
+      return res.status(400).json(errors);
+    } else {
+      const userFields = {};
+      if (req.body.isAdmin) userFields.isAdmin = req.body.isAdmin;
+      if (req.body.name) userFields.name = req.body.name;
+      if (req.body.isAdmin) userFields.isAdmin = req.body.isAdmin;
+      if (req.body.isActive) userFields.isActive = req.body.isActive;
+      user = await User.findByIdAndUpdate(
+        { _id: user._id },
+        { $set: userFields },
+        { new: true }
+      );
+      return res.status(201).json({
+        message: "success",
+        user: {
+          _id: user._id,
+          name: user.name,
+          email: user.email,
+          isActive: user.isActive,
+          isAdmin: user.isAdmin,
+        },
+      });
     }
-  } catch (error) {
-    winston.error(error);
+  } else if (!user) {
+    return res.status(404).json("User does not exist");
   }
 };
 
 //delete a User
 export const deleteUser = async (req, res) => {
-  try {
-    let user = await User.findById(req.params.id);
-    if (user) {
-      if (isAdmin) {
-        await User.findOneAndRemove({ _id: user._id });
-        res.status(201).json({ success: true });
-      }
-    } else {
-      return res.status(404).json("User does not exist");
+  let user = await User.findById(req.params.id);
+  if (user) {
+    if (isAdmin) {
+      await User.findOneAndRemove({ _id: user._id });
+      res.status(201).json({ success: true });
     }
-  } catch (error) {
-    console.log(error);
+  } else {
+    return res.status(404).json("User does not exist");
   }
 };
