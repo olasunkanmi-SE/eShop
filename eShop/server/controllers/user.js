@@ -41,7 +41,7 @@ export const register = async (req, res) => {
 //Get all users
 
 export const getUsers = async (req, res) => {
-  let users = await User.find();
+  let users = await User.find({});
   let response = {
     count: users.length,
     users: users.map((user) => {
@@ -67,10 +67,7 @@ export const getUsers = async (req, res) => {
 export const getCurrentUser = async (req, res) => {
   let user = req.user;
   return res.status(200).json({
-    _id: user._id,
-    name: user.name,
-    email: user.email,
-    date: user.date,
+    user,
   });
 };
 

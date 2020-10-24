@@ -4,7 +4,8 @@ import * as productController from "../../controllers/product.js";
 import { isAdmin } from "../../middlewares/admin.js";
 import { auth } from "../../middlewares/auth.js";
 
-router.post("/creatproduct", productController.createProduct);
+router.get("/create", productController.createProduct);
 router.get("/product:id", productController.getProductById);
+router.get("/", productController.getProducts);
 
 export const productRouter = router;
