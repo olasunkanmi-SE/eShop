@@ -1,5 +1,5 @@
-import { Product } from "../models/product";
-import { validateProduct } from "../validation/product";
+import { Product } from "../models/product.js";
+import { validateProduct } from "../validation/product.js";
 
 //Create a Product
 export const createProduct = async (req, res) => {
@@ -22,4 +22,15 @@ export const createProduct = async (req, res) => {
     product,
     url: `http:localhost:5000/api/products/${product._id}`,
   });
+};
+
+//Get product by Id
+
+export const getProductById = async (req, res) => {
+  const product = await Product.findById(req.params.id);
+  if (product) {
+    return res.status(200).json({ product });
+  } else {
+    return res.status(404).json({ message: "product does not exist" });
+  }
 };

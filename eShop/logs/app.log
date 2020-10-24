@@ -12,3 +12,7 @@ TypeError: winston is not a function
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
 2020-10-23T08:13:58.417Z info ::1 - - [23/Oct/2020:08:13:58 +0000] "GET /api/users/updateuser/5f60dc285c8e3804e89e9b30 HTTP/1.1" 404 184 "-" "PostmanRuntime/7.26.5"
 
+2020-10-24T14:13:02.864Z info ::1 - - [24/Oct/2020:14:13:02 +0000] "GET /5000/api/users HTTP/1.1" 404 153 "-" "PostmanRuntime/7.26.3"
+
+2020-10-24T14:13:39.479Z info ::1 - - [24/Oct/2020:14:13:39 +0000] "GET /5000/api/users HTTP/1.1" 404 153 "-" "PostmanRuntime/7.26.3"
+
