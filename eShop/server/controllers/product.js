@@ -19,6 +19,7 @@ export const createProduct = async (req, res) => {
     category: req.body.category,
     price: req.body.price,
     description: req.body.description,
+    countInStock: req.body.countInStock,
   });
 
   await product.save();
