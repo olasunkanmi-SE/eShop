@@ -1,3 +1,5 @@
+import { UsersModule } from './modules/users/users.module';
+import { ProductsModule } from './modules/products/products.module';
 import { LoggingInterceptor } from './modules/core/interceptors/logging-inteceptor';
 import { ErrorInterceptor } from './modules/core/interceptors/error-interceptor';
 import { RootStoreModule } from './modules/root-store/root-store.module';
@@ -24,6 +26,8 @@ import { environment } from '../environments/environment';
     MaterialModule,
     HttpClientModule,
     RootStoreModule,
+    ProductsModule,
+    UsersModule,
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
