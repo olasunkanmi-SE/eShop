@@ -1,3 +1,5 @@
+
+import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './../material/material.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -13,7 +15,7 @@ import { MiniFooterComponent } from './components/mini-footer/mini-footer.compon
     PagenotfoundComponent,
     MiniFooterComponent,
   ],
-  imports: [CommonModule, MaterialModule],
+  imports: [CommonModule, MaterialModule, HttpClientModule],
   exports: [HeaderComponent, FooterComponent, MiniFooterComponent],
 })
 export class CoreModule {}

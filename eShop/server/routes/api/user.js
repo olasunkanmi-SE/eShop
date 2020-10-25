@@ -10,5 +10,8 @@ router.get("/current", auth, userController.getCurrentUser);
 router.post("/generatetoken", userController.generatePasswordResetURL);
 router.get("/reset/:token", userController.getUserToken);
 router.post("/resetpassword", userController.resetPassword);
+router.patch("/:id", [auth, isAdmin], userController.updateUser);
+router.delete("/deleteuser/:id", [auth, isAdmin], userController.deleteUser);
+router.get("/:id", userController.getUserById);
 
 export const userRouter = router;
