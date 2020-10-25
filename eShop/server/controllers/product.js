@@ -1,5 +1,8 @@
 import { Product } from "../models/product.js";
-import { validateProduct } from "../validation/product.js";
+import {
+  validateProduct,
+  validateProductUpdate,
+} from "../validation/product.js";
 
 //Create a Product
 export const createProduct = async (req, res) => {
@@ -49,3 +52,45 @@ export const getProducts = async (req, res) => {
 };
 
 //Update a Product
+
+export const updateProduct = async (req, res) => {
+  let product = await Product.findById(req.params.id);
+  if (product) {
+    const { errors, isValid } = validateProductUpdate(req.body);
+    if (isValid) {
+      const productFields = {};
+      if (req.body.name) {
+        productFields.name = req.body.name;
+      }
+      if (req.body.brand) {
+        productFields.brand = req.body.brand;
+      }
+      if (req.body.category) {
+        productFields.category = req.body.category;
+      }
+      if (req.body.description) {
+        productFields.description = req.body.description;
+      }
+      if (req.body.countInStock) {
+        productFields.countInStock = req.body.countInStock;
+      }
+      if (req.body.price) {
+        productFields.price = req.body.price;
+      }
+      product = await Product.findByIdAndUpdate(
+        { _id: product._id },
+        { $set: productFields },
+        { new: true }
+      );
+      return res.status(201).json({
+        message: "success",
+        product,
+        url: `http://localhost:5000/api/products/${product._id}`,
+      });
+    } else {
+      return res.status(400).json({ errors });
+    }
+  } else {
+    return res.status(404).json({ message: "Error: Product does not exist" });
+  }
+};

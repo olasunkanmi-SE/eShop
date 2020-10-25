@@ -157,20 +157,31 @@ export const updateUser = async (req, res) => {
   if (user) {
     const { errors, isValid } = validateUserUpdate(req.body);
     if (!isValid) {
-      return res.status(400).json(errors);
+      return res.status(400).json({ errors });
     } else {
       const userFields = {};
-      if (req.body.isAdmin) userFields.isAdmin = req.body.isAdmin;
-      if (req.body.name) userFields.name = req.body.name;
-      if (req.body.isAdmin) userFields.isAdmin = req.body.isAdmin;
-      if (req.body.isActive) userFields.isActive = req.body.isActive;
+      if (req.body.isAdmin) {
+        userFields.isAdmin = req.body.isAdmin;
+      }
+      if (req.body.name) {
+        userFields.name = req.body.name;
+      }
+      if (req.body.email) {
+        userFields.email = req.body.email;
+      }
+      if (req.body.isAdmin) {
+        userFields.isAdmin = req.body.isAdmin;
+      }
+      if (req.body.isActive) {
+        userFields.isActive = req.body.isActive;
+      }
       user = await User.findByIdAndUpdate(
         { _id: user._id },
         { $set: userFields },
         { new: true }
       );
       return res.status(201).json({
-        message: "success",
+        message: `product was updated successfully`,
         user,
         url: `http://localhost:5000/api/users/${user._id}`,
       });

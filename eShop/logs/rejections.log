@@ -214,3 +214,12 @@ RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: { user: [Object]
     at ServerResponse.json (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\response.js:267:15)
     at getUserById (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:72:8)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2020-10-25T04:39:36.351Z error unhandledRejection: Cannot convert object to primitive value
+TypeError: Cannot convert object to primitive value
+    at updateUser (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/user.js:184:33)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2020-10-25T04:48:38.917Z error unhandledRejection: Cast to Number failed for value "sss" at path "price"
+CastError: Cast to Number failed for value "sss" at path "price"
+    at model.Query.exec (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\mongoose\lib\query.js:4367:21)
+    at model.Query.Query.then (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\mongoose\lib\query.js:4459:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
