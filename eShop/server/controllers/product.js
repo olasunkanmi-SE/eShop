@@ -94,3 +94,15 @@ export const updateProduct = async (req, res) => {
     return res.status(404).json({ message: "Error: Product does not exist" });
   }
 };
+
+//Delete a Product
+
+export const deleteProduct = async (req, res) => {
+  let product = await Product.findById(req.params.id);
+  if (product) {
+    await Product.findOneAndRemove({ _id: product._id });
+    return res.status(201).json({ message: "product deleted successfully" });
+  } else {
+    return res.status(404).json({ message: "product does not exist" });
+  }
+};

@@ -325,3 +325,38 @@ CastError: Cast to Number failed for value "sss" at path "price"
     at model.Query.exec (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\mongoose\lib\query.js:4367:21)
     at model.Query.Query.then (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\mongoose\lib\query.js:4459:15)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2020-10-25T04:53:03.713Z error uncaughtException: Cannot read property 'createProduct' of undefined
+TypeError: Cannot read property 'createProduct' of undefined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/routes/api/product.js:7:56
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-25T04:53:28.463Z error uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as get] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:510:19)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/routes/api/product.js:8:8
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-25T04:53:48.884Z error uncaughtException: Route.post() requires a callback function but got a [object Promise]
+Error: Route.post() requires a callback function but got a [object Promise]
+    at Route.<computed> [as post] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as post] (C:\Users\oyino\Documents\Applications\shop\eShop\eShop\node_modules\express\lib\router\index.js:510:19)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/routes/api/product.js:7:8
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-25T04:53:48.919Z error unhandledRejection: Cannot read property 'body' of undefined
+TypeError: Cannot read property 'body' of undefined
+    at Function.createProduct (file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/controllers/product.js:10:43)
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/routes/api/product.js:10:39
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+2020-10-25T04:56:08.136Z error uncaughtException: Cannot read property 'createProduct' of undefined
+TypeError: Cannot read property 'createProduct' of undefined
+    at file:///C:/Users/oyino/Documents/Applications/shop/eShop/eShop/server/routes/api/product.js:10:39
+    at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
+    at async Loader.import (internal/modules/esm/loader.js:165:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
