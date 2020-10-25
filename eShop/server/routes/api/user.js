@@ -10,8 +10,8 @@ router.get("/current", auth, userController.getCurrentUser);
 router.post("/generatetoken", userController.generatePasswordResetURL);
 router.get("/reset/:token", userController.getUserToken);
 router.post("/resetpassword", userController.resetPassword);
-router.put("/updateuser/:id", [auth, isAdmin], userController.updateUser);
+router.patch("/updateuser/:id", [auth, isAdmin], userController.updateUser);
 router.delete("/deleteuser/:id", [auth, isAdmin], userController.deleteUser);
-router.get("/current", userController.getCurrentUser);
+router.get("/:id", userController.getUserById);
 
 export const userRouter = router;

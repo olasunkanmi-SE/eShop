@@ -6,7 +6,8 @@ export const validateProduct = (product) => {
     brand: Joi.string().min(5).max(250).required(),
     category: Joi.string().min(2).max(250).required(),
     description: Joi.string().min(5).max(250).required(),
-    price: Joi.number(),
+    countInStock: Joi.number().required(),
+    price: Joi.number().required(),
   });
   return Schema.validate(product);
 };

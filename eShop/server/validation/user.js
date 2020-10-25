@@ -36,7 +36,7 @@ export const validateUserUpdate = (data) => {
   }
 
   if (validator.isEmpty(data.isAdmin)) {
-    errors.isAdmin = "isAdmin field cannot be empty";
+    errors.isAdmin = "isAdmin is required";
   }
 
   if (!validator.isBoolean(data.isAdmin)) {
@@ -44,7 +44,7 @@ export const validateUserUpdate = (data) => {
   }
 
   if (validator.isEmpty(data.isActive)) {
-    errors.isActive = "isActive field cannot be empty";
+    errors.isActive = "isActive is required";
   }
 
   if (!validator.isIn(data.isActive, [0, 1])) {

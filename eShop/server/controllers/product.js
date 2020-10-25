@@ -1,6 +1,5 @@
 import { Product } from "../models/product.js";
 import { validateProduct } from "../validation/product.js";
-import { getCurrentUser } from "../controllers/user.js";
 
 //Create a Product
 export const createProduct = async (req, res) => {
@@ -41,10 +40,12 @@ export const getProductById = async (req, res) => {
 //Get all products
 
 export const getProducts = async (req, res) => {
-  const products = await Product.find({});
-  if (product.length > 0) {
-    return res.status(200).json({ products });
+  const products = await Product.find({}).sort({ createdAt: -1 });
+  if (products.length > 0) {
+    return res.status(200).json({ count: products.length, products });
   } else {
     return res.status(404).json({ message: "no products found" });
   }
 };
+
+//Update a Product

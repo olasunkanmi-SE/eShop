@@ -62,6 +62,19 @@ export const getUsers = async (req, res) => {
   return res.status(200).json(response);
 };
 
+//Get User by ID
+
+export const getUserById = async (req, res) => {
+  const user = await User.findById(req.params.id);
+  if (user) {
+    return res
+      .status(200)
+      .json({ user, url: `http://localhost:5000/api/users/${user._id}` });
+  } else {
+    return res.status(404).json({ message: "user not found" });
+  }
+};
+
 //Return current logged in user
 
 export const getCurrentUser = async (req, res) => {
@@ -158,13 +171,8 @@ export const updateUser = async (req, res) => {
       );
       return res.status(201).json({
         message: "success",
-        user: {
-          _id: user._id,
-          name: user.name,
-          email: user.email,
-          isActive: user.isActive,
-          isAdmin: user.isAdmin,
-        },
+        user,
+        url: `http://localhost:5000/api/users/${user._id}`,
       });
     }
   } else if (!user) {
