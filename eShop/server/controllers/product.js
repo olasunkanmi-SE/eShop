@@ -46,7 +46,7 @@ export const getProductById = async (req, res) => {
 export const getProducts = async (req, res) => {
   const products = await Product.find({}).sort({ createdAt: -1 });
   if (products.length > 0) {
-    return res.status(200).json({ count: products.length, products });
+    return res.status(200).send(products);
   } else {
     return res.status(404).json({ message: "no products found" });
   }

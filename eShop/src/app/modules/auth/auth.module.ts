@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 
 import { CoreModule } from './../core/core.module';
 import { MaterialModule } from './../material/material.module';
@@ -12,6 +13,7 @@ import { SignupComponent } from './signup/component/signup.component';
 import { LoginComponent } from './login/component/login.component';
 import { ForgotPasswordComponent } from './forgot-password/component/forgot-password.component';
 import { LoginPageComponent } from './login/container/login-page.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,13 @@ import { LoginPageComponent } from './login/container/login-page.component';
     ForgotPasswordComponent,
     ForgotPasswordPageComponent,
   ],
-  imports: [CommonModule, AuthRoutingModule, MaterialModule, CoreModule],
+  imports: [
+    CommonModule,
+    AuthRoutingModule,
+    MaterialModule,
+    CoreModule,
+    HttpClientModule,
+    FormsModule,
+  ],
 })
 export class AuthModule {}

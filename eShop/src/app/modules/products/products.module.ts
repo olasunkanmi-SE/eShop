@@ -1,3 +1,5 @@
+import { ProductEffect } from './../root-store/product/product.effect';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { productReducer } from './../root-store/product/product.reducer';
@@ -12,6 +14,8 @@ import { ListProductComponent } from './product-list/component/list-product/list
 import { ListProductPageComponent } from './product-list/container/list-product-page/list-product-page.component';
 import { ProductDetailComponent } from './product-detail/component/product-detail/product-detail.component';
 import { ProductDetailPageComponent } from './product-detail/container/product-detail-page/product-detail-page.component';
+import { FormsModule } from '@angular/forms';
+import { EffectsModule, Actions } from '@ngrx/effects';
 
 @NgModule({
   declarations: [
@@ -28,6 +32,9 @@ import { ProductDetailPageComponent } from './product-detail/container/product-d
   imports: [
     CommonModule,
     ProductsRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    EffectsModule.forFeature([ProductEffect]),
     StoreModule.forFeature('products', productReducer),
   ],
 })

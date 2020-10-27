@@ -1,6 +1,10 @@
 import * as productActions from './product.actions';
 import { Product } from './../../core/models/product';
-import { ActionReducerMap } from '@ngrx/store';
+import {
+  ActionReducerMap,
+  createFeatureSelector,
+  createSelector,
+} from '@ngrx/store';
 
 export interface productState {
   products: Product[];
@@ -89,3 +93,25 @@ export function productReducer(
       };
   }
 }
+
+const getProductFeatureState = createFeatureSelector<productState>('product');
+
+export const getProducts = createSelector(
+  getProductFeatureState,
+  (state: productState) => state.products
+);
+
+export const getProductsLoading = createSelector(
+  getProductFeatureState,
+  (state: productState) => state.loading
+);
+
+export const getProductsLoaded = createSelector(
+  getProductFeatureState,
+  (state: productState) => state.loaded
+);
+
+export const getProductsError = createSelector(
+  getProductFeatureState,
+  (state: productState) => state.error
+);
