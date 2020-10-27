@@ -33,5 +33,59 @@ export function productReducer(
         loading: false,
         products: action.payload,
       };
+    case productActions.ProductActionType.LOAD_PRODUCTS_FAIL:
+      return {
+        ...state,
+        loading: false,
+        loaded: false,
+        error: action.payload,
+      };
+    case productActions.ProductActionType.LOAD_SINGLE_PRODUCT:
+      return {
+        ...state,
+        loading: true,
+      };
+    case productActions.ProductActionType.LOAD_SINGLE_PRODUCT_SUCCESS:
+      return {
+        ...state,
+        loaded: true,
+        loading: false,
+        products: action.payload,
+      };
+    case productActions.ProductActionType.LOAD_SINGLE_PRODUCT_FAIL:
+      return {
+        ...state,
+        loading: false,
+        loaded: false,
+        error: action.payload,
+      };
+    case productActions.ProductActionType.UPDATE_PRODUCT_SUCCESS:
+      return {
+        ...state,
+        loaded: true,
+        loading: false,
+        products: action.payload,
+      };
+    case productActions.ProductActionType.UPDATE_PRODUCT_FAIL:
+      return {
+        ...state,
+        loading: false,
+        loaded: false,
+        error: action.payload,
+      };
+    case productActions.ProductActionType.CREATE_PRODUCT_SUCCESS:
+      return {
+        ...state,
+        loaded: true,
+        loading: false,
+        products: action.payload,
+      };
+    case productActions.ProductActionType.CREATE_PRODUCT_FAIL:
+      return {
+        ...state,
+        loading: false,
+        loaded: false,
+        error: action.payload,
+      };
   }
 }
