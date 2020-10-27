@@ -1,3 +1,5 @@
+import { UsersModule } from './modules/users/users.module';
+import { ProductsModule } from './modules/products/products.module';
 import { LoggingInterceptor } from './modules/core/interceptors/logging-inteceptor';
 import { ErrorInterceptor } from './modules/core/interceptors/error-interceptor';
 import { RootStoreModule } from './modules/root-store/root-store.module';
@@ -7,11 +9,10 @@ import { AuthModule } from './modules/auth/auth.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { environment } from '../environments/environment';
+import { EffectsModule } from '@ngrx/effects';
 
 @NgModule({
   declarations: [AppComponent],
@@ -24,6 +25,9 @@ import { environment } from '../environments/environment';
     MaterialModule,
     HttpClientModule,
     RootStoreModule,
+    ProductsModule,
+    UsersModule,
+    EffectsModule.forRoot([]),
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },

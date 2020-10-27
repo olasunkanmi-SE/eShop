@@ -46,7 +46,7 @@ export const getProductById = async (req, res) => {
 export const getProducts = async (req, res) => {
   const products = await Product.find({}).sort({ createdAt: -1 });
   if (products.length > 0) {
-    return res.status(200).json({ count: products.length, products });
+    return res.status(200).send(products);
   } else {
     return res.status(404).json({ message: "no products found" });
   }
@@ -102,7 +102,12 @@ export const deleteProduct = async (req, res) => {
   let product = await Product.findById(req.params.id);
   if (product) {
     await Product.findOneAndRemove({ _id: product._id });
-    return res.status(201).json({ message: "product deleted successfully" });
+    let products = await Product.find({});
+    return res.status(201).json({
+      message: "product deleted successfully",
+      productsCount: products.length,
+      products,
+    });
   } else {
     return res.status(404).json({ message: "product does not exist" });
   }

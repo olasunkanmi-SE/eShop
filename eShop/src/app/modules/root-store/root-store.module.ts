@@ -1,3 +1,5 @@
+import { AppReducers } from './index';
+import { ProductsModule } from './../products/products.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { StoreModule } from '@ngrx/store';
@@ -8,11 +10,12 @@ import { environment } from 'src/environments/environment';
   declarations: [],
   imports: [
     CommonModule,
-    StoreModule.forRoot({}, {}),
+    StoreModule.forRoot(AppReducers, {}),
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       logOnly: environment.production,
     }),
+    ProductsModule,
   ],
 })
 export class RootStoreModule {}
