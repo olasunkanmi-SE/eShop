@@ -21,7 +21,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: #160338 !important;
+  background-color: #000000 !important;
 }
 
 .spacer {
@@ -48,4 +48,31 @@ mat-toolbar a {
 
 .btnmove {
   margin-left: 15px;
+}
+
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  height: 40px;
+}
+
+mat-toolbar .main-menu a {
+  font-size: 13px !important;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+mat-toolbar .main-menu a:hover {
+  color: #d3d3d3;
+}
+
+.mat-toolbar .mat-toolbar mat-button {
+  font-size: 13px !important;
+}
+
+.icon {
+  font-size: 20px !important;
+}
+
+.cart {
+  color: purple;
 }

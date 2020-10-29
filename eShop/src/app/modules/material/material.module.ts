@@ -1,4 +1,3 @@
-
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -43,4 +42,3 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
   ],
 })
 export class MaterialModule {}
-
