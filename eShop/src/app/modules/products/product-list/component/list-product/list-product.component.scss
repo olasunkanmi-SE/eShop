@@ -1,0 +1,52 @@
+.example-card {
+  max-width: 100%;
+}
+
+.full-width {
+  width: 100%;
+  position: relative;
+}
+
+.movesearchbox {
+  margin-left: 16px;
+}
+
+.outline {
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  height: 90px;
+  position: absolute;
+}
+
+.movecols {
+  margin-top: 20px;
+}
+
+.centercols {
+  margin-top: 15px;
+  position: relative;
+}
+
+.spacecontainer {
+  margin-top: 20px;
+}
+.spacerow {
+  margin-top: 25px;
+}
+
+.latest {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.cartbtn {
+  width: 100%;
+}
+
+mat-card mat-card-content {
+  text-align: left;
+}

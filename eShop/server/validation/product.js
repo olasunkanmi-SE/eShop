@@ -65,6 +65,12 @@ export const validateProductUpdate = (data) => {
       : (errors.price = "price of product is required");
   }
 
+  if (data.image) {
+    data.image = !isEmpty(data.image)
+      ? data.image
+      : (errors.image = "product image path is required");
+  }
+
   return {
     errors,
     isValid: isEmpty(errors),
