@@ -38,24 +38,26 @@
   </div>
   <div class="row">
     <div class="col-md-3 mb-3" *ngFor="let product of products$ | async">
-      <mat-card class="example-card">
+      <mat-card class="example-card" style="text-align: center">
         <img
           mat-card-image
-          src="{{product.image}}"
-          alt="{{product.name}}"
-          style="max-width:100%; height:auto; text-align: center;"
+          src="{{ product.image }}"
+          alt="{{ product.name }}"
+          style="max-width: 100%; height: auto"
         />
-        <mat-card-content style="text-align: left;">
-          <h3>{{product.name}}</h3>
+        <mat-card-content style="text-align: left">
+          <h3>{{ product.name }}</h3>
         </mat-card-content>
         <mat-card-content>
-          <p>{{product.category}}</p>
+          <p>{{ product.category }}</p>
         </mat-card-content>
         <mat-card-content>
           <p>4.5 from 5 reviews</p>
         </mat-card-content>
         <mat-card-content>
-          <p><b>${{product.price}}</b></p>
+          <p>
+            <b>${{ product.price }}</b>
+          </p>
         </mat-card-content>
         <mat-card-content>
           <button class="cartbtn" mat-raised-button color="primary">
@@ -66,4 +68,3 @@
     </div>
   </div>
 </div>
-
