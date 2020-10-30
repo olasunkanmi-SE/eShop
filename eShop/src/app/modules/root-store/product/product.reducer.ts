@@ -94,7 +94,7 @@ export function productReducer(
   }
 }
 
-const getProductFeatureState = createFeatureSelector<productState>('products');
+const getProductFeatureState = createFeatureSelector<productState>('product');
 
 export const getProducts = createSelector(
   getProductFeatureState,

@@ -15,5 +15,7 @@ export const AppReducers: ActionReducerMap<AppState> = {
   ui: fromUi.UIreducer,
 };
 
+//Create selector for UI
+
 export const getUiState = createFeatureSelector<fromUi.UIstate>('ui');
 export const getIsLoading = createSelector(getUiState, fromUi.getIsLoading);

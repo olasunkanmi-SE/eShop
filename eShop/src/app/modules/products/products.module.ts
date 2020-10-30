@@ -37,7 +37,7 @@ import { EffectsModule, Actions } from '@ngrx/effects';
     FormsModule,
     MaterialModule,
     EffectsModule.forFeature([ProductEffect]),
-    StoreModule.forFeature('products', productReducer),
+    StoreModule.forFeature('product', productReducer),
   ],
 })
 export class ProductsModule {}
