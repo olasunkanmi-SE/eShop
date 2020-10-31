@@ -18,10 +18,7 @@ export class ListProductComponent implements OnInit {
 
   ngOnInit(): void {
     this.store.dispatch(new productActions.LoadProducts());
-    this.isLoading$ = this.store
-      .select(fromProduct.getProductsLoading)
-      .pipe()
-      .subscribe((res) => console.log(res));
+    this.isLoading$ = this.store.pipe(select(fromProduct.getProductsLoading));
     this.products$ = this.store.pipe(select(fromProduct.getProducts));
   }
 }

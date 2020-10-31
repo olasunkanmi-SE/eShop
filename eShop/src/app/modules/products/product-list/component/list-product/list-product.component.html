@@ -4,6 +4,7 @@
     {{ product.name }}
   </li>
 </ul> -->
+<div *ngIf="isLoading$|async"><h1>I am Loading</h1></div>
 <div class="container spacecontainer">
   <div class="row">
     <div class="col-md-2 mb-3 centercols">
