@@ -1,3 +1,4 @@
+import { CoreModule } from './../core/core.module';
 import { MaterialModule } from './../material/material.module';
 import { ProductEffect } from './../root-store/product/product.effect';
 import { HttpClientModule } from '@angular/common/http';
@@ -36,6 +37,7 @@ import { EffectsModule, Actions } from '@ngrx/effects';
     HttpClientModule,
     FormsModule,
     MaterialModule,
+    CoreModule,
     EffectsModule.forFeature([ProductEffect]),
     StoreModule.forFeature('products', productReducer),
   ],

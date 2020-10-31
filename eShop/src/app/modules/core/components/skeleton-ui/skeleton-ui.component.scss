@@ -1,8 +1,8 @@
 .loader {
   position: relative;
   background-color: rgb(235, 235, 235);
-  width: 200px;
-  height: 20px;
+  max-width: 100%;
+  height: auto;
   /* background: #efefee; */
   overflow: hidden;
   border-radius: 4px;

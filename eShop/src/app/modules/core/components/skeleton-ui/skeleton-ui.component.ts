@@ -16,9 +16,10 @@ export class SkeletonUiComponent implements OnInit {
 
   getStyles() {
     const skeletonStyles = {
-      'width.px': this.skeletonWidth ? this.skeletonWidth : '',
+      'width.%': this.skeletonWidth ? this.skeletonWidth : '',
       'height.px': this.skeletonHeight ? this.skeletonHeight : '',
-      'border-radius': this.skeletonCircle ? this.skeletonCircle : '',
+      'border-radius': this.skeletonCircle ? '50%' : '',
     };
+    return skeletonStyles;
   }
 }
