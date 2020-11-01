@@ -1,3 +1,4 @@
+
 import { ProductDetailComponent } from './product-detail/component/product-detail/product-detail.component';
 import { ListProductPageComponent } from './product-list/container/list-product-page/list-product-page.component';
 import { AddProductPageComponent } from './product-add/container/add-product-page/add-product-page.component';
