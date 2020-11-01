@@ -48,16 +48,5 @@ The `ng serve` command builds (compiles TypeScript and copies assets) the applic
 
 Shut it down manually with `Ctrl-C`.
 
-#### ng scripts
-
-These are the most useful commands defined in `package.json`:
-
-* `ng serve` - runs the TypeScript compiler, asset copier, and a server at the same time, all three in "watch mode".
-* `ng build` - runs the TypeScript compiler and asset copier once.
-
-These are the test-related scripts:
-
-* `ng test` - builds the application and runs Intern tests (both unit and functional) one time.
-* `ng e2e` - run end to end test
 
 
