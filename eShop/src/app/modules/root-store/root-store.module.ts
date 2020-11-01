@@ -15,7 +15,7 @@ import { environment } from 'src/environments/environment';
       maxAge: 25,
       logOnly: environment.production,
     }),
-    ProductsModule,
+    // ProductsModule,
   ],
 })
 export class RootStoreModule {}

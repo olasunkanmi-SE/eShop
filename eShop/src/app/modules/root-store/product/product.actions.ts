@@ -5,16 +5,16 @@ import { any } from 'joi';
 //Define the Product Action types
 
 export enum ProductActionType {
-  LOAD_PRODUCTS = '[Product] Load Products',
-  LOAD_PRODUCTS_SUCCESS = '[Product] Load Products Success',
-  LOAD_PRODUCTS_FAIL = '[Product] Load Product Fail',
-  LOAD_SINGLE_PRODUCT = '[Product] Load Products',
-  LOAD_SINGLE_PRODUCT_SUCCESS = '[Product] Load Products Success',
-  LOAD_SINGLE_PRODUCT_FAIL = '[Product] Load Product Fail',
-  CREATE_PRODUCT_SUCCESS = '[Product] Create Product Success',
-  CREATE_PRODUCT_FAIL = '[Product] Create Product Fail',
-  UPDATE_PRODUCT_SUCCESS = '[Product] Create Product Success',
-  UPDATE_PRODUCT_FAIL = '[Product] Create Product Fail',
+  LOAD_PRODUCTS = '[PRODUCT] Load PRODUCTS',
+  LOAD_PRODUCTS_SUCCESS = '[PRODUCT] Load PRODUCTS Success',
+  LOAD_PRODUCTS_FAIL = '[PRODUCT] Load PRODUCT Fail',
+  LOAD_SINGLE_PRODUCT = '[PRODUCT] Load PRODUCTS',
+  LOAD_SINGLE_PRODUCT_SUCCESS = '[PRODUCT] Load PRODUCTS Success',
+  LOAD_SINGLE_PRODUCT_FAIL = '[PRODUCT] Load PRODUCT Fail',
+  CREATE_PRODUCT_SUCCESS = '[PRODUCT] Create PRODUCT Success',
+  CREATE_PRODUCT_FAIL = '[PRODUCT] Create PRODUCT Fail',
+  UPDATE_PRODUCT_SUCCESS = '[PRODUCT] Create PRODUCT Success',
+  UPDATE_PRODUCT_FAIL = '[PRODUCT] Create PRODUCT Fail',
 }
 
 //Define the product actions

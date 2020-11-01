@@ -11,3 +11,4 @@
 
 2020-10-27T12:38:30.588Z info ::1 - - [27/Oct/2020:12:38:30 +0000] "GET /api/products/products HTTP/1.1" 404 160 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
 
+2020-10-29T13:49:30.448Z info ::1 - - [29/Oct/2020:13:49:30 +0000] "POST /api/products/5f94eff1af832b2e48be1f2e HTTP/1.1" 404 177 "-" "PostmanRuntime/7.26.3"

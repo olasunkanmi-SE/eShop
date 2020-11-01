@@ -1,3 +1,5 @@
+
+import { ProductDetailComponent } from './product-detail/component/product-detail/product-detail.component';
 import { ListProductPageComponent } from './product-list/container/list-product-page/list-product-page.component';
 import { AddProductPageComponent } from './product-add/container/add-product-page/add-product-page.component';
 import { NgModule } from '@angular/core';
@@ -12,6 +14,7 @@ const routes: Routes = [
     children: [
       { path: 'product/create', component: AddProductPageComponent },
       { path: 'product/list', component: ListProductPageComponent },
+      { path: 'product', component: ProductDetailComponent },
     ],
   },
 ];

@@ -78,6 +78,9 @@ export const updateProduct = async (req, res) => {
       if (req.body.price) {
         productFields.price = req.body.price;
       }
+      if (req.body.image) {
+        productFields.image = req.body.image;
+      }
       product = await Product.findByIdAndUpdate(
         { _id: product._id },
         { $set: productFields },

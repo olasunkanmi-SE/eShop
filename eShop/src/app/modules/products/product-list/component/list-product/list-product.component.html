@@ -1,6 +1,155 @@
-<p>list-product works!</p>
-<ul>
-  <li *ngFor="let product of products$ | async">
-    {{ product.name }}
-  </li>
-</ul>
+
+<div class="container spacecontainer">
+  <app-search></app-search>
+  <div class="row">
+    <div class="col">
+      <p class="latest">LATEST PRODUCTS</p>
+      <hr />
+    </div>
+  </div>
+  <div class="row" *ngIf="!(isLoading$ | async)">
+    <div class="col-md-3 mb-3" *ngFor="let product of products$ | async">
+      <mat-card class="example-card" style="text-align: center">
+        <img
+          mat-card-image
+          src="{{ product.image }}"
+          alt="{{ product.name }}"
+          style="max-width: 100%; height: auto"
+        />
+        <mat-card-content style="text-align: left">
+          <h3>{{ product.name }}</h3>
+        </mat-card-content>
+        <mat-card-content>
+          <p>
+            <b>{{ product.category }}</b>
+          </p>
+        </mat-card-content>
+        <mat-card-content>
+          <p>4.5 from 5 reviews</p>
+        </mat-card-content>
+        <mat-card-content>
+          <p>
+            <b>${{ product.price }}</b>
+          </p>
+        </mat-card-content>
+        <mat-card-content>
+          <button class="cartbtn" mat-raised-button color="primary">
+            Add to Cart
+          </button>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+
+  <div class="row" *ngIf="isLoading$ | async">
+    <div class="col-md-3 mb-3">
+      <mat-card class="example-card" style="text-align: center">
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="200">
+          </app-skeleton-ui>
+        </mat-card-content>
+
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+          </app-skeleton-ui>
+        </mat-card-content>
+        <mat-card-content>
+          <p>
+            <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+            </app-skeleton-ui>
+          </p>
+        </mat-card-content>
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+          </app-skeleton-ui>
+        </mat-card-content>
+
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="40">
+          </app-skeleton-ui>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div class="col-md-3 mb-3">
+      <mat-card class="example-card" style="text-align: center">
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="200">
+          </app-skeleton-ui>
+        </mat-card-content>
+
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+          </app-skeleton-ui>
+        </mat-card-content>
+        <mat-card-content>
+          <p>
+            <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+            </app-skeleton-ui>
+          </p>
+        </mat-card-content>
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+          </app-skeleton-ui>
+        </mat-card-content>
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="40">
+          </app-skeleton-ui>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div class="col-md-3 mb-3">
+      <mat-card class="example-card" style="text-align: center">
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="200">
+          </app-skeleton-ui>
+        </mat-card-content>
+
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+          </app-skeleton-ui>
+        </mat-card-content>
+        <mat-card-content>
+          <p>
+            <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+            </app-skeleton-ui>
+          </p>
+        </mat-card-content>
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+          </app-skeleton-ui>
+        </mat-card-content>
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="40">
+          </app-skeleton-ui>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div class="col-md-3 mb-3">
+      <mat-card class="example-card" style="text-align: center">
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="200">
+          </app-skeleton-ui>
+        </mat-card-content>
+
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+          </app-skeleton-ui>
+        </mat-card-content>
+        <mat-card-content>
+          <p>
+            <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+            </app-skeleton-ui>
+          </p>
+        </mat-card-content>
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="20">
+          </app-skeleton-ui>
+        </mat-card-content>
+        <mat-card-content>
+          <app-skeleton-ui skeletonWidth="100" skeletonHeight="40">
+          </app-skeleton-ui>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

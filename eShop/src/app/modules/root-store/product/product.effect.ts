@@ -1,3 +1,5 @@
+
+import * as UIactions from './../ui/ui.actions';
 import { Product } from './../../core/models/product';
 import * as productActions from './product.actions';
 import { ProductService } from './../../core/services/product.service';
@@ -6,6 +8,7 @@ import { Observable, of } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { Actions, ofType, createEffect, Effect } from '@ngrx/effects';
 import { mergeMap, map, catchError, exhaustMap } from 'rxjs/operators';
+
 @Injectable()
 export class ProductEffect {
   constructor(

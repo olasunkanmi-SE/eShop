@@ -1,1 +1,114 @@
-<p>product-detail works!</p>
+
+<div class="container">
+  <app-search></app-search>
+  <div class="row breadcrumb">
+    <p>Accessories</p>
+  </div>
+  <div class="row productDetails">
+    <div class="col-md-4 mb-3" style="margin-top: 30px">
+      <img
+        src="https://m.media-amazon.com/images/I/719xFB+eo6L._AC_UY436_FMwebp_QL65_.jpg"
+        alt="playstation console"
+        style="max-width: 100%; height: auto"
+      />
+    </div>
+    <div class="col-md-4 mb-3 productspacing">
+      <span class="productTitle">
+        DualShock 4 Wireless Controller for PlayStation 4</span
+      >
+      <span class="productCategory"
+        ><p><b>Category</b> : &nbsp; <a href="">Accessories</a></p></span
+      >
+      <hr />
+      <span><p>4.5 from 5 reviews</p></span>
+      <hr />
+      <span><p>Price: $29.99</p></span>
+      <hr />
+      <span
+        ><p>
+          <b>Description</b> : Automatically on, automatically connected Easy
+          setup for all your Apple devices Double-tap to play or skip forward
+          Charges quickly in the case Case can be charged using the Lightning
+          connector
+        </p></span
+      >
+    </div>
+    <div class="col-md-4 mb-3 productspacing">
+      <mat-card class="example-card" style="text-align: center">
+        <mat-card-content style="text-align: left">
+          <div class="d-flex bd-highlight mb-3">
+            <div class="p-2 bd-highlight">Price</div>
+            <div class="ml-auto p-2 bd-highlight">$29.99</div>
+          </div>
+        </mat-card-content>
+        <mat-card-content>
+          <div class="d-flex bd-highlight mb-3">
+            <div class="p-2 bd-highlight">Status</div>
+            <div class="ml-auto p-2 bd-highlight">In Stock</div>
+          </div>
+        </mat-card-content>
+
+        <mat-card-content class="productSummary">
+          <div class="d-flex bd-highlight mb-3">
+            <div class="p-2 bd-highlight">Qty:</div>
+            <div class="ml-auto p-2 bd-highlight">
+              <div>
+                <form action="" method="POST">
+                  <div>
+                    <div>
+                      <input type="hidden" name="quantity" value="2" /><input
+                        type="hidden"
+                        name="sku"
+                        value="4933986"
+                      /><input
+                        type="hidden"
+                        name="action_type"
+                        value="update_cart_item_quantity"
+                      />
+                      <div class="d-flex flex-row bd-highlight mb-3">
+                        <div class="p-2 bd-highlight">
+                          <button
+                            class="qtybtn"
+                            name="decrement"
+                            type="submit"
+                            value="-1"
+                          >
+                            -
+                          </button>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                          <div class="a03ba_1Zj-T">2</div>
+                        </div>
+                        <div class="p-2 bd-highlight">
+                          <button
+                            class="qtybtn"
+                            name="increment"
+                            type="submit"
+                            value="1"
+                          >
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </mat-card-content>
+
+        <mat-card-content>
+          <button class="productButton" mat-raised-button color="primary">
+            Add to Cart
+          </button>
+        </mat-card-content>
+        <mat-card-content>
+          <button class="productButton" mat-raised-button color="primary">
+            Add to Wishlist
+          </button>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>
