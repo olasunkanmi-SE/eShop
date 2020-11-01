@@ -48,5 +48,11 @@ The `ng serve` command builds (compiles TypeScript and copies assets) the applic
 
 Shut it down manually with `Ctrl-C`.
 
+## Run Server
+
+```shell
+nodemon server.js
+```
+
 
 
