@@ -25,6 +25,13 @@ const routes: Routes = [
     loadChildren: () =>
       import('./modules/users/users.module').then((m) => m.UsersModule),
   },
+  {
+    path: 'checkout',
+    loadChildren: () =>
+      import('./modules/checkout/checkout.module').then(
+        (m) => m.CheckoutModule
+      ),
+  },
 ];
 
 @NgModule({

@@ -1,3 +1,4 @@
+import { CheckoutModule } from './modules/checkout/checkout.module';
 import { UsersModule } from './modules/users/users.module';
 import { ProductsModule } from './modules/products/products.module';
 import { LoggingInterceptor } from './modules/core/interceptors/logging-inteceptor';
@@ -27,6 +28,7 @@ import { EffectsModule } from '@ngrx/effects';
     RootStoreModule,
     ProductsModule,
     UsersModule,
+    CheckoutModule,
     EffectsModule.forRoot([]),
   ],
   providers: [
