@@ -1,3 +1,5 @@
+import { CoreModule } from './../../core/core.module';
+import { MaterialModule } from './../../material/material.module';
 import { DisplayCartPageComponent } from './display-cart/container/display-cart-page.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -20,6 +22,6 @@ import { InterestedPageComponent } from './interested/container/interested-page.
     InterestedComponent,
     InterestedPageComponent,
   ],
-  imports: [CommonModule, CartRoutingModule],
+  imports: [CommonModule, CartRoutingModule, MaterialModule, CoreModule],
 })
 export class CartModule {}
