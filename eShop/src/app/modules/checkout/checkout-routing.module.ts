@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CheckoutComponent } from './checkout.component';
 
 const routes: Routes = [
-  { path: '', component: CheckoutComponent },
+  { path: 'checkout', component: CheckoutComponent },
   {
     path: 'cart',
     loadChildren: () => import('./cart/cart.module').then((m) => m.CartModule),
