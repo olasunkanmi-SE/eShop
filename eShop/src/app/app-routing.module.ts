@@ -1,6 +1,6 @@
-import { PagenotfoundComponent } from './modules/core/components/pagenotfound/pagenotfound.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { PagenotfoundComponent } from './modules/core/components/pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   {
@@ -34,8 +34,12 @@ const routes: Routes = [
       ),
   },
   {
-    path: '**',
+    path: 'not-found-404',
     component: PagenotfoundComponent,
+  },
+  {
+    path: '**',
+    redirectTo: '/not-found-404',
   },
 ];
 

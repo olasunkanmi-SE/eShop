@@ -19,7 +19,6 @@ import { EffectsModule } from '@ngrx/effects';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     AuthModule,
     BrowserAnimationsModule,
     MaterialModule,
@@ -29,6 +28,7 @@ import { EffectsModule } from '@ngrx/effects';
     UsersModule,
     CheckoutModule,
     CoreModule,
+    AppRoutingModule,
     EffectsModule.forRoot([]),
   ],
   providers: [
