@@ -104,8 +104,17 @@
 
 .categoryCard {
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 1px;
   text-align: center;
-  padding: 0.625rem 0.25rem;
+  padding: 0.625rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+.category {
+  margin-left: -3px;
+}
+
+.category :hover {
+  background-color: black;
+  color: #fff;
 }
