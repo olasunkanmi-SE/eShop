@@ -1,3 +1,4 @@
+import { PagenotfoundComponent } from './modules/core/components/pagenotfound/pagenotfound.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -31,6 +32,10 @@ const routes: Routes = [
       import('./modules/checkout/checkout.module').then(
         (m) => m.CheckoutModule
       ),
+  },
+  {
+    path: '**',
+    component: PagenotfoundComponent,
   },
 ];
 
