@@ -1,13 +1,14 @@
-import { Strategy, ExtractJwt } from "passport-jwt";
+import dotenv from "dotenv";
+import { ExtractJwt, Strategy } from "passport-jwt";
+import * as winston from "winston";
+import { User } from "../models/User.js";
 const JWTStrategy = Strategy;
 const ExtractJWT = ExtractJwt;
-import { User } from "../models/User.js";
-import { keys } from "../config/default.js";
-import * as winston from "winston";
+dotenv.config();
 
 const opts = {
   jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken(),
-  secretOrKey: keys.jwtPrivateKey,
+  secretOrKey: process.env.JWTSECRET,
 };
 
 export const passportStrategy = (passport) => {

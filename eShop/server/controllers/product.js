@@ -26,7 +26,7 @@ export const createProduct = async (req, res) => {
   return res.status(201).json({
     message: "product created successfully",
     product,
-    url: `http:localhost:5000/api/products/${product._id}`,
+    url: `http:localhost:3000/api/products/${product._id}`,
   });
 };
 
@@ -89,7 +89,7 @@ export const updateProduct = async (req, res) => {
       return res.status(201).json({
         message: "success",
         product,
-        url: `http://localhost:5000/api/products/${product._id}`,
+        url: `http://localhost:3000/api/products/${product._id}`,
       });
     } else {
       return res.status(400).json({ errors });

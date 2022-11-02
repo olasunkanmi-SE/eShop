@@ -12,3 +12,149 @@
 2020-10-27T12:38:30.588Z info ::1 - - [27/Oct/2020:12:38:30 +0000] "GET /api/products/products HTTP/1.1" 404 160 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
 
 2020-10-29T13:49:30.448Z info ::1 - - [29/Oct/2020:13:49:30 +0000] "POST /api/products/5f94eff1af832b2e48be1f2e HTTP/1.1" 404 177 "-" "PostmanRuntime/7.26.3"
+2022-11-02T03:05:45.874Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/passport-jwt/lib/strategy.js:45:15)
+    at passportStrategy (file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server/config/passport.js:15:5)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:49:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:07:51.093Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/passport-jwt/lib/strategy.js:45:15)
+    at passportStrategy (file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server/config/passport.js:15:5)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:48:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:07:54.752Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/passport-jwt/lib/strategy.js:45:15)
+    at passportStrategy (file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server/config/passport.js:15:5)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:48:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:12:03.862Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/passport-jwt/lib/strategy.js:45:15)
+    at passportStrategy (file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server/config/passport.js:15:5)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:48:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:12:10.973Z error uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:1:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:12:17.977Z error uncaughtException: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:1:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:14:22.570Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/passport-jwt/lib/strategy.js:45:15)
+    at passportStrategy (file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server/config/passport.js:15:5)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:50:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:15:07.025Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/passport-jwt/lib/strategy.js:45:15)
+    at passportStrategy (file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server/config/passport.js:15:5)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:50:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:15:16.906Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/passport-jwt/lib/strategy.js:45:15)
+    at passportStrategy (file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server/config/passport.js:15:5)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:50:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:15:57.122Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/passport-jwt/lib/strategy.js:45:15)
+    at passportStrategy (file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server/config/passport.js:14:5)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:50:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:16:31.408Z error uncaughtException: JwtStrategy requires a secret or key
+TypeError: JwtStrategy requires a secret or key
+    at new JwtStrategy (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/passport-jwt/lib/strategy.js:45:15)
+    at passportStrategy (file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server/config/passport.js:15:5)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:50:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:16:41.878Z error uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/express/lib/application.js:618:24)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:63:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:16:46.934Z error uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/express/lib/application.js:618:24)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:63:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
+2022-11-02T03:16:51.301Z error uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/node_modules/express/lib/application.js:618:24)
+    at file:///Users/olasunkanmioyinlola/Documents/Apps/eShop/eShop/server.js:63:5
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12)
