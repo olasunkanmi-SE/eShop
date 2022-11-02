@@ -1,17 +1,18 @@
-import express from "express";
-import("express-async-errors");
 import bodyParser from "body-parser";
-import mongoose from "mongoose";
-import { error } from "./server/middlewares/error.js";
-import morgan from "morgan";
-import { logger } from "./server/config/winston.js";
-import { authRouter } from "./server/routes/api/auth.js";
-import { userRouter } from "./server/routes/api/user.js";
-import { productRouter } from "./server/routes/api/product.js";
-import { dbUri } from "./server/config/db.js";
 import cors from "cors";
+import dotenv from "dotenv";
+import express from "express";
+import mongoose from "mongoose";
+import morgan from "morgan";
 import passport from "passport";
 import { passportStrategy } from "./server/config/passport.js";
+import { logger } from "./server/config/winston.js";
+import { error } from "./server/middlewares/error.js";
+import { authRouter } from "./server/routes/api/auth.js";
+import { productRouter } from "./server/routes/api/product.js";
+import { userRouter } from "./server/routes/api/user.js";
+dotenv.config();
+import("express-async-errors");
 
 const auth = authRouter;
 const user = userRouter;
@@ -26,7 +27,7 @@ const product = productRouter;
 // Connect to Atlas database online
 
 mongoose
-  .connect(dbUri, {
+  .connect(process.env.DBURL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
@@ -58,5 +59,5 @@ app.use(error);
 app.use(morgan("combined", { stream: logger.stream }));
 
 // Assign port
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server running on port ${port}`));

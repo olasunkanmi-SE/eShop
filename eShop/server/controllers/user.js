@@ -33,7 +33,7 @@ export const register = async (req, res) => {
     createdUser: user,
     request: {
       type: "GET",
-      url: `http:localhost:5000/api/users/${user._id}`,
+      url: `http:localhost:3000/api/users/${user._id}`,
     },
   });
 };
@@ -53,7 +53,7 @@ export const getUsers = async (req, res) => {
         isActive: user.isActive,
         request: {
           type: "GET",
-          url: `http://localhost:5000/api/users/${user._id}`,
+          url: `http://localhost:3000/api/users/${user._id}`,
         },
         date: user.date,
       };
@@ -69,7 +69,7 @@ export const getUserById = async (req, res) => {
   if (user) {
     return res
       .status(200)
-      .json({ user, url: `http://localhost:5000/api/users/${user._id}` });
+      .json({ user, url: `http://localhost:3000/api/users/${user._id}` });
   } else {
     return res.status(404).json({ message: "user not found" });
   }
@@ -101,7 +101,7 @@ export const generatePasswordResetURL = async (req, res) => {
     user.save();
     return res
       .status(201)
-      .json(`http://localhost:5000/api/users/reset/${token}`);
+      .json(`http://localhost:3000/api/users/reset/${token}`);
   });
 };
 
@@ -183,7 +183,7 @@ export const updateUser = async (req, res) => {
       return res.status(201).json({
         message: `product was updated successfully`,
         user,
-        url: `http://localhost:5000/api/users/${user._id}`,
+        url: `http://localhost:3000/api/users/${user._id}`,
       });
     }
   } else if (!user) {
