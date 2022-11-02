@@ -1,3 +1,3 @@
 export const keys = {
-  jwtPrivateKey: "shop_privateKey",
+  jwtPrivateKey: process.env.JWTSECRET,
 };
