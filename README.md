@@ -33,6 +33,7 @@ nodemon server.js
 
 ## Create a .env file, 
 DBURL=yourmongodburl
+
 JWTSECRET=yoursecret
 
 
