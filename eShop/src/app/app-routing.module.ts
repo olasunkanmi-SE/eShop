@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { PagenotfoundComponent } from './modules/core/components/pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,21 @@ const routes: Routes = [
     path: 'users',
     loadChildren: () =>
       import('./modules/users/users.module').then((m) => m.UsersModule),
+  },
+  {
+    path: 'checkout',
+    loadChildren: () =>
+      import('./modules/checkout/checkout.module').then(
+        (m) => m.CheckoutModule
+      ),
+  },
+  {
+    path: 'not-found-404',
+    component: PagenotfoundComponent,
+  },
+  {
+    path: '**',
+    redirectTo: '/not-found-404',
   },
 ];
 

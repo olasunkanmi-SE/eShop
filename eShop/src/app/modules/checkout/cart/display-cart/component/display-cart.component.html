@@ -1,0 +1,92 @@
+<div class="container">
+  <app-search></app-search>
+  <div class="row breadcrumb">
+    <p>Shopping Cart</p>
+  </div>
+  <div class="row cartMenu">
+    <div class="col-md-6 mb-3"><p>Item Details</p></div>
+    <div class="col-md-2 mb-3"><p>Quantity</p></div>
+    <div class="col-md-2 mb-3"><p>Unit Price</p></div>
+    <div class="col-md-2 mb-3"><p>Sub Total</p></div>
+  </div>
+  <div class="row cartItems" *ngFor="let data of dataSource">
+    <div class="col-md-3 mb-3">
+      <img src="{{ data.productImage }}" alt="" />
+    </div>
+    <div class="col-md-3 mb-3">
+      <div>{{ data.productName }}</div>
+      <div></div>
+    </div>
+    <div class="col-md-2 mb-3" style="float: left !important">
+      <div>
+        <form>
+          <div>
+            <div>
+              <input type="hidden" name="quantity" value="2" /><input
+                type="hidden"
+                name="sku"
+                value="4933986"
+              /><input
+                type="hidden"
+                name="action_type"
+                value="update_cart_item_quantity"
+              />
+              <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight">
+                  <button
+                    class="qtybtn"
+                    name="decrement"
+                    type="submit"
+                    value="-1"
+                  >
+                    -
+                  </button>
+                </div>
+                <div class="p-2 bd-highlight">
+                  <div class="a03ba_1Zj-T">{{ data.quantity }}</div>
+                </div>
+                <div class="p-2 bd-highlight">
+                  <button
+                    class="qtybtn"
+                    name="increment"
+                    type="submit"
+                    value="1"
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-2 mb-3">
+      <p>${{ data.price }}</p>
+    </div>
+    <div class="col-md-2 mb-3">
+      <p>${{ data.price }}</p>
+    </div>
+  </div>
+  <div class="row cartTotal">
+    <div class="col-md-8 mb-3"></div>
+    <div class="col-md-2 mb-3">
+      <div><p>Total</p></div>
+    </div>
+    <div class="col-md-2 mb-3"><p>$91.98</p></div>
+  </div>
+  <div class="row cartTotal">
+    <div class="col-md-8 mb-3"></div>
+    <div class="col-md-2 mb-3">
+      <button class="productButton" mat-raised-button color="primary">
+        Continue Shopping
+      </button>
+    </div>
+
+    <div class="col-md-2 mb-3">
+      <button class="productButton" mat-raised-button color="primary">
+        Proceed to checkout
+      </button>
+    </div>
+  </div>
+</div>

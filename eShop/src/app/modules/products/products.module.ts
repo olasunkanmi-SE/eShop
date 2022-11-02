@@ -1,4 +1,3 @@
-
 import { CoreModule } from './../core/core.module';
 import { MaterialModule } from './../material/material.module';
 import { ProductEffect } from './../root-store/product/product.effect';
@@ -19,6 +18,8 @@ import { ProductDetailComponent } from './product-detail/component/product-detai
 import { ProductDetailPageComponent } from './product-detail/container/product-detail-page/product-detail-page.component';
 import { FormsModule } from '@angular/forms';
 import { EffectsModule, Actions } from '@ngrx/effects';
+import { ProductCategoryComponent } from './product-category/component/product-category.component';
+import { ProductCategoryPageComponent } from './product-category/container/product-category-page.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,8 @@ import { EffectsModule, Actions } from '@ngrx/effects';
     ListProductPageComponent,
     ProductDetailComponent,
     ProductDetailPageComponent,
+    ProductCategoryComponent,
+    ProductCategoryPageComponent,
   ],
   imports: [
     CommonModule,

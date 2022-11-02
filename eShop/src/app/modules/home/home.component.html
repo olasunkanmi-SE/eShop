@@ -1,5 +1,13 @@
 <div class="container spacecontainer">
   <app-search></app-search>
+  <div class="row category">
+    <div
+      class="col-md-2 mb-3 offset-0.8 categoryCard"
+      *ngFor="let category of categories"
+    >
+      {{ category }}
+    </div>
+  </div>
   <div class="row">
     <div class="col">
       <p class="latest">LATEST PRODUCTS</p>
